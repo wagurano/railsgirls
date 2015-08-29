@@ -1,16 +1,16 @@
-# Rails Girls Guides
+# 레일스 걸스 가이드
 
-Our aim is to give tools for women to understand technology. The Rails Girls events do this by providing a great first experience on building the Internet.
+>우리의 목표는 여성들에게 기술을 이해하는 툴을 제공하는 것입니다. 레일스 걸스 행사는 여러분에게 처음으로 인터넷을 만드는 경헝을 제공하여 목표를 달성합니다.
 
-Rails Girls was founded in end of 2010 in Helsinki. Originally intended as a onetime event, we never thought to see so many local chapters all around the world! This guide has been put together to help you get started.
+레일스 걸스는 헬시키에서 2010년 말 설립하였습니다. 본래 일회성 행사였기때문에 세계 각지에 레일스 걸스 지부가 많이 생길지 생각하지 못했습니다. 레일스 걸스 가이드는 여러분이 시작하는데 필요한 내용을 담아 두었습니다.
 
-You can use our materials and instructions to roll out your own workshop in your city, workplace or kitchen! Read more about Rails Girls at http://railsgirls.com
+여기의 교재와 강의를 활용해서 여러분이 사는 도시에서 또는 회상에서 또는 집에서 워크샵을 열어도 됩니다! 레일스 걸스에 대해서는 http://railsgirls.com 를 들려서 읽어보세요.
 
-## Quick start
+## 가볍게 시작하기
 
-View the guides at http://guides.railsgirls.com or clone this repo and install & run [jekyll](https://github.com/mojombo/jekyll)
+http://guides.railsgirls.com 을 열거나 소스 저장소를 클론하고 [지킬 jekyll](https://github.com/mojombo/jekyll)을 설치 및 실행합니다.
 
-### Installing jekyll
+### 지킬 jekyll 설치
 
 ```
 $ cd railsgirls.github.com
@@ -20,48 +20,48 @@ $ cd railsgirls.github.com
 $ bundle install
 ```
 
-### Pygments and Code Highlighting
+### 파이그먼츠 Pygments 와 코드 하이라이팅
 
-The guides use the [pygments](http://pygments.org/) library to do syntax highlighting. If you don't have it installed you won't be able to see the highlight sections like the following:
+문맥에 따라 코드를 색깔로 구별하기 위해 [파이그먼츠 pygments](http://pygments.org/) 라이브러리를 사용합니다. 아직 설치하지 않았다면 아래와 같이 하이라이트 섹션을 볼 수 없습니다:
 
 ```
 {% highlight %}
 {% endhighlight %}
 ```
 
-If you aren't editing the code blocks, you can safely ignore this. If you want pygments, you can follow the [install instructions](https://github.com/mojombo/jekyll/wiki/Install) in the "Pygments" section.
+코드 블럭을 직접 수정하지 않는 경우 설치하지 않아도 됩니다. 설치하려면  "파이그먼츠 Pygments" 섹션에서 [설치 방법](https://github.com/mojombo/jekyll/wiki/Install)을 읽을세요.
 
-### Run jekyll
+### 지킬 jekyll 실행
 
 ```
 $ jekyll server --watch
 ```
 
-### Having trouble?
+### 문제가 생겼나요?
 
-You might find some useful hints in this jekyll issue if it's not working as expected: [Issue 503](https://github.com/mojombo/jekyll/issues/503)
+지킬이 생각대로 동작하지 않으면 몇가지 유용한 힌트를 찾아보세요: [이슈  503](https://github.com/mojombo/jekyll/issues/503)
 
-## Contributing a Guide
+## 가이드에 기여하기
 
-To contribute a guide, view the instructions at http://guides.railsgirls.com/contributing
+가이드에 기여하려면 http://guides.railsgirls.com/contributing 을 읽으세요.
 
-## Twitter
+## 트위터
 
-For updates and more follow [@railsgirls](https://twitter.com/railsgirls)
+[@railsgirls](https://twitter.com/railsgirls)를 팔로우하고 업데이트를 확인하세요.
 
-## Website & Blog
+## 웹사이트와 블로그
 
-Official website and blog for Rails Girls movement can be found at http://railsgirls.com
+http://railsgirls.com 는 레일스 걸스 운동에 대한 공식 웹사이트와 블로그입니다. 
 
-## E-mail list
+## 메일링 리스트
 
-Global mailing list for Rails Girls events at http://groups.google.com/group/rails-girls-team
+레일스 걸스 행사에 대한 전세계 메일링 리스트는 http://groups.google.com/group/rails-girls-team 입니다.
 
-## Credits
+## 기여하신 분
 
 * Karri Saarinen / [@karrisaarinen](https://twitter.com/karrisaarinen) / [github](http://github.com/ksaa)
-* Linda Liukas / [@lindaliukas](https://twitter.com/lindaliukas) / [github](http://github.com/lindaliukas)
+* 린다 리우카스 Linda Liukas / [@lindaliukas](https://twitter.com/lindaliukas) / [github](http://github.com/lindaliukas)
 * Vesa Vänskä / [@vesan](https://twitter.com/vesan) / [github](http://github.com/vesan)
-* Terence Lee / [@hone02](https://twitter.com/hone02) / [github](http://github.com/hone)
+* 테렌스 리 Terence Lee / [@hone02](https://twitter.com/hone02) / [github](http://github.com/hone)
 
-..and all the other coaches and people making Rails Girls awesome. Please add yourself!
+.. 그리고 여러 코치분들과 레일스 걸스를 잘 가꿔주는 사람들. 여러분도 참여해보세요!
