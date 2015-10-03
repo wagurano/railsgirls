@@ -10,7 +10,7 @@ permalink: simpleapp
 
 *Edited to include [simple_scaffold](https://github.com/Ben-M/simple_scaffold) by Ben Maraney.*
 
-**미리 레일스를 설치해야 합니다.** [**설치 가이드 링크로 가서**](/install) 참고하세요.
+**미리 레일스를 설치해야 합니다.** [**설치 가이드 링크로 가서**](../install) 참고하세요.
 
 
 ## 툴을 살펴봅니다.
@@ -428,11 +428,11 @@ get "pages/info"
 ## Additional Guides
 
 * Guide 0: [루비, 레일스, 콘솔에 대한 치트시트](https://github.com/PragTob/rails-beginner-cheatsheet)
-* Guide 1: [댓글 달기 Janika Liiv](/commenting)
-* Guide 2: [헤로쿠로 배포하기 Terence Lee](/heroku) / [오픈시프트로 배포하기 Katie Miller](/openshift)
+* Guide 1: [댓글 달기 Janika Liiv](../commenting)
+* Guide 2: [헤로쿠로 배포하기 Terence Lee](../heroku) / [오픈시프트로 배포하기 Katie Miller](../openshift)
 * Guide 3: [Build a map of workshop participants by Rails Girls Berlin](http://railsgirlsberlin.de/apptutorial/)
-* Guide 4: [썸네일 이미지 만들기 Miha Filej](/thumbnails)
-* Guide 5: [HTML과 CSS 디자인 Alex Liao](/design)
-* Guide 6: [디바이즈 젬을 사용하여 인증(사용자 계정)하기 Piotr Steininger](/devise/)
+* Guide 4: [썸네일 이미지 만들기 Miha Filej](../thumbnails)
+* Guide 5: [HTML과 CSS 디자인 Alex Liao](../design)
+* Guide 6: [디바이즈 젬을 사용하여 인증(사용자 계정)하기 Piotr Steininger](../devise/)
 * Guide 7: [위에서 만든 레일스 걸스 애플리케이션을 단계별로 설명 Lucy Bain](https://github.com/lbain/railsgirls)
 

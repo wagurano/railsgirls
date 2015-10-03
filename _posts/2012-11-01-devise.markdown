@@ -10,7 +10,7 @@ permalink: devise
 
 *Updated by Ernesto Jimenez, [@ernesto_jimenez](https://twitter.com/ernesto_jimenez)*
 
-[**앱 개발 가이드를 따라서**](/app) **레일스 걸스 앱을 미리 만들어 두어야 합니다.**
+[**앱 개발 가이드를 따라서**](../app) **레일스 걸스 앱을 미리 만들어 두어야 합니다.**
 
 
 ## *1.*Add devise gem

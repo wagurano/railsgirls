@@ -8,7 +8,7 @@ permalink: commenting
 
 *railsgirls* 애플리케이션의 아이디어에 댓글을 달겠습니다.
 
-레일스을 설치하고 아디이어를 만드는 설명을 [이곳을](/app) 참고합니다.
+레일스을 설치하고 아디이어를 만드는 설명을 [이곳을](../app) 참고합니다.
 
 ## *1.*Create comment scaffold
 
