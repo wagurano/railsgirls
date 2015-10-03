@@ -4,31 +4,31 @@ title: Adding Authentication with Devise
 permalink: devise
 ---
 
-# Adding Authentication with Devise
+# 디바이즈 젬으로 인증하기
 
 *Created by Piotr Steininger, [@polishprince](https://twitter.com/polishprince)*
 
 *Updated by Ernesto Jimenez, [@ernesto_jimenez](https://twitter.com/ernesto_jimenez)*
 
-**This guide assumes that you have already built a Rails Girls app by** [**following the app development guide**](/app).
+[**앱 개발 가이드를 따라서**](/app) **레일스 걸스 앱을 미리 만들어 두어야 합니다.**
 
 
 ## *1.*Add devise gem
 
-Open up your `Gemfile` and add this line
+`Gemfile` 파일을 수정합니다. 아래와 같이 젬을 추가합니다.
 
 {% highlight ruby %}
 gem 'devise'
 {% endhighlight %}
-and run
+그리고 아래와 같이 실행합니다.
 {% highlight sh %}
 bundle install
 {% endhighlight %}
-to install the gem. **Also remember to restart the Rails server**.
+젬을 설치한 다음 **레일스 서버를 꼭 다시 실행합니다**.
 
 ## *2.*Set up devise in your app
 
-Run the following command in the terminal.
+아래와 같이 터미널에서 명령어를 실행합니다.
 
 {% highlight sh %}
 rails g devise:install
@@ -37,14 +37,14 @@ rails g devise:install
 
 ## *3.*Configure Devise
 
-Ensure you have defined default url options in your environments files. Open up `config/environments/development.rb` and add this line:
+환경 설정 파일에서 기본 url 옵션을 정의해야 합니다. `config/environments/development.rb` 을 열어 아래와 같이 :
 {% highlight ruby %}
    config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 {% endhighlight %}
 
-before the `end` keyword.
+`end` 키워드 위에 추가합니다.
 
-Open up `app/views/layouts/application.html.erb` and add:
+`app/views/layouts/application.html.erb` 파일을 아래와 같이 수정합니다:
 
 {% highlight erb %}
 <% if notice %>
@@ -54,41 +54,41 @@ Open up `app/views/layouts/application.html.erb` and add:
   <p class="alert alert-danger"><%= alert %></p>
 <% end %>
 {% endhighlight %}
-right above
+위 코드를 아래 코드 위에 넣습니다.
 {% highlight ruby %}
    <%= yield %>
 {% endhighlight %}
 
-Open up `app/views/ideas/show.html.erb` and remove the line that says:
+`app/views/ideas/show.html.erb` 파일에서 아래와 같은 부분을 지우고 위에서 넣은 코드를 넣습니다:
 
 {% highlight erb %}
 <p id="notice"><%= notice %></p>
 {% endhighlight %}
 
-Do the same for `app/views/comments/show.html.erb`. These lines are not necessary as we've put the notice in the `app/views/layouts/application.html.erb` file.
+`app/views/comments/show.html.erb` 파일도 마찬가지로 수정합니다. 파일마다 코드를 수정하지 않아도 `app/views/layouts/application.html.erb` 파일만 수정해도 됩니다.
 
 ## *4.*Setup the User model
 
-We'll use a bundled generator script to create the User model.
+디바이즈 젬이 만들어둔 스크립트를 사용해서 사용자(User) 모델을 만들겠습니다.
 {% highlight sh %}
    rails g devise user
    rake db:migrate
 {% endhighlight %}
 
-**Coach:** Explain what user model has been generated. What are the
-fields?
+**Coach:** 사용자(user) 모델이 생성한 것을 설명하세요. 필드는 
+무엇인가요?
 
 ## *5.*Create your first user
 
-Now that you have set everything up you can create your first user. Devise creates all the code and routes required to create accounts, log in, log out, etc.
+사용자를 등록할 수 있는 모든 준비가 되었습니다. 디바이즈는 계정을 생성하고 로그인, 로그아웃하는 모든 코드와 라우드를 만들어줍니다.
 
-Make sure your rails server is running, open [http://localhost:3000/users/sign_up](http://localhost:3000/users/sign_up) and create your user account.
+레일스 서버를 실행하고, 브라우저로 [http://localhost:3000/users/sign_up](http://localhost:3000/users/sign_up)로 이동하면 사용자 계정을 생성할 수 있습니다.
 
 ## *6.*Add sign-up and login links
 
-All we need to do now is to add appropriate links or notice about the user being logged in in the top right corner of the navigation bar.
+다음으로 사용자가 로그인하는 링크와 알림 메시지를 네비게이션 바의 오른쪽 위에 넣겠습니다.
 
-In order to do that, edit `app/views/layouts/application.html.erb` add:
+우선 `app/views/layouts/application.html.erb` 파일을 아래와 같이 수정합니다:
 {% highlight erb %}
 <p class="navbar-text pull-right">
 <% if user_signed_in? %>
@@ -100,30 +100,30 @@ In order to do that, edit `app/views/layouts/application.html.erb` add:
   <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
 <% end %>
 {% endhighlight %}
-right after
+위의 코드를 아래 코드 아래에 넣습니다.
 {% highlight erb %}
 <ul class="nav">
   <li class="active"><a href="/ideas">Ideas</a></li>
 </ul>
 {% endhighlight %}
 
-Finally, force the user to redirect to the login page if the user was not logged in. Open up `app/controllers/application_controller.rb` and add:
+그런 다음 로그인하지 않았을 경우 사용자가 로그인 페이지로 이동하도록 `app/controllers/application_controller.rb` 파일을 아래와 같이 수정합니다:
 
 {% highlight ruby %}
   before_action :authenticate_user!
 {% endhighlight %}
 
-after `protect_from_forgery with: :exception`.
+위의 코드를 `protect_from_forgery with: :exception` 뒤에 붙여 넣습니다.
 
-Open your browser and try logging in and out from.
+브라우저를 열어서 로그인과 로그아웃을 해봅니다.
 
-**Coach:** Talk about the `user_signed_in?` and `current_user` helpers. Why are they useful?
+**Coach:** `user_signed_in?`과 `current_user` 헬퍼를 설명하세요. 헬퍼는 왜 유용한가요?
 
 ## What next?
 
-* Add extra fields to the User model
-* Add relationships between users and ideas
-* Restrict users to only be able to edit their own ideas and delete their own comments
-* Expand to use roles or permissions (use one of the popular authorization gem like CanCan)
+* 사용자(User) 모델에 필드를 더 추가합니다.
+* 사용자와 아이디어의 관계를 추가합니다.
+* 다른 사용자가 등록한 아이디어를 수정하거나 삭제하지 않도록 제한합니다.
+* 권한과 역할(캔캔 CanCan처럼 유명한 인증 젬을 사용하여) 기능을 확장합니다.
 
 
