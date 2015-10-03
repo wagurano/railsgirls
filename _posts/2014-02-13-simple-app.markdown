@@ -4,52 +4,52 @@ title: Simpler Rails Girls App Tutorial
 permalink: simpleapp
 ---
 
-# Rails Girls App Tutorial
+# 레일스 걸스 앱 튜토리얼
 
 *Created by Vesa Vänskä, [@vesan](https://twitter.com/vesan)*
 
 *Edited to include [simple_scaffold](https://github.com/Ben-M/simple_scaffold) by Ben Maraney.*
 
-**Make sure you have Rails installed.** [**Follow the installation guide**](/install) to get set up.
+**미리 레일스를 설치해야 합니다.** [**설치 가이드 링크로 가서**](/install) 참고하세요.
 
 
-## Get to know the tools
+## 툴을 살펴봅니다.
 
 <div class="indent" markdown="1">
 
 <h3><i class="icon-text-editor">&nbsp;</i></h3>
 
-<h3>Text Editor</h3>
+<h3>텍스트 에디터</h3>
 
-<p><a href="http://www.sublimetext.com">Sublime Text</a>, <a href="http://www.activestate.com/komodo-edit">Komodo Edit</a>, Vim, Emacs, and Gedit are examples of text editors your can use for writing code and editing files.</p>
+<p><a href="http://www.sublimetext.com">서브라임 텍스트</a>, <a href="http://www.activestate.com/komodo-edit">코모도 에디트</a>, 빔, 이맥스, 지에디트는 코드를 편집하는 대표적인 텍스트 에디터입니다.</p>
 
 <h3><i class="icon-prompt">&nbsp;</i></h3>
 
-<h3>Terminal (known as Command Prompt on Windows)</h3>
-Where you start the rails server and run commands.
+<h3>터미널 (윈도우즈에서 명령행 프롬프트)</h3>
+에서 레일스를 서버로 실행하고 명령어를 실행합니다.
 
 <h3><i class="icon-browser">&nbsp;</i></h3>
 
-<h3>Web browser</h3>
-(Firefox, Safari, Chrome) for viewing your application.
+<h3>웹브라우저</h3>
+(파이어폭스, 사파리, 크롬) 여러분이 만든 애플리케이션을 보여줍니다.
 
 </div>
 
 ### Important
 
-It is important that you select the instructions specific to your operating system - the commands you need to run on a Windows computer are slightly different to Mac or Linux. If you're having trouble check the Operating System switcher at the bottom of the commands.
+여러분이 사용하는 컴퓨터의 운영체제에 따라 안내사항을 선택하도록 합니다. - 윈도우즈 커뮤터에서 실행하는 명령어는 맥과 리눅스와 다릅니다. 따라하면서 실행할 명령어 테두리 아래에서 운영체제를 윈도우즈와 기타 중에서 선택할 수 있습니다.
 
 ## *1.*Creating the application
 
-We're going to create a new Rails app called *railsgirls*.
+레일스 앱 이름을 *railsgirls*으로 새로 만들겠습니다.
 
-First, let's open a terminal:
+먼저, 터미널을 열겠습니다:
 
-* Mac OS X: Open Spotlight, type *Terminal* and click the *Terminal* application.
-* Windows: Click Start and look for *Command Prompt*, then click *Command Prompt with Ruby on Rails*.
-* Linux (Ubuntu/Fedora): Search for *Terminal* on the dash and click *Terminal*.
+* 맥: 스포트라이트를 열어 *Terminal* 를 키보드로 입력하고 *Terminal* 애플리케이션이 나타나면 선택합니다.
+* 윈도우즈: 시작버튼을 눌러 *Command Prompt* 찾아서 *Command Prompt with Ruby on Rails*를 클릭합니다.
+* 리눅스 (우분투/페도라): 대시에서 *Terminal*를 찾아서 *Terminal*를 클릭합니다.
 
-Next, type these commands in the terminal:
+다음, 터미널에서 아래와 같이 명령어를 키보드로 입력합니다:
 
 <div class="os-specific">
   <div class="nix">
@@ -58,7 +58,7 @@ mkdir projects
 {% endhighlight %}
 
     <div>
-You can verify that a directory named <code>projects</code> was created by running the list command: <code>ls</code>. You should see the <code>projects</code> directory in the output. Now you want to change the directory you are currently in to the <code>projects</code> folder by running:
+<code>projects</code>라는 이름의 디렉토리가 있는지 확인하려면 list 명령어를 실행합니다: <code>ls</code>. <code>projects</code>라는 디렉토리를 화면에 출력됩니다. 그럼 위치를 <code>projects</code> 폴더로 이동하겠습니다:
     </div>
 
 {% highlight sh %}
@@ -66,7 +66,7 @@ cd projects
 {% endhighlight %}
 
     <div>
-You can verify you are now in an empty directory or folder by again running the <code>ls</code> command. Now you want to create a new app called <code>railsgirls</code> by running:
+<code>ls</code> 명령어를 실행해보면 디렉토리가 비어있습니다. 그럼 아래와 같이 <code>railsgirls</code> 라는 이름으로 앱을 새로 만들겠습니다:
     </div>
 
 {% highlight sh %}
@@ -74,13 +74,13 @@ rails new railsgirls -m http://railsgirls.com/simple_scaffold.rb
 {% endhighlight %}
 
     <div>
-        <code>rails new railsgirls</code> tells Rails to generate a project called railsgirls with all the files that our application needs.
+        <code>rails new railsgirls</code> 실행결과 레일스는 railsgirls 라는 이름으로 프로젝트를 생성하고 프로젝트에 필요한 모든 파일을 생성합니다.
     </div>
     <div>
-        <code>-m http://railsgirls.com/simple_scaffold.rb</code> tells Rails to download a special template from railsgirls.com which makes the files a bit simpler and easier for beginners to understand.
+        <code>-m http://railsgirls.com/simple_scaffold.rb</code> 실행결과 레일스는 템플릿 파일을 railsgirls.com에서 가져와서 초심자가 이해하기에 쉬운 간단한 코드를 만듭니다.
     </div>
     <div>
-This will create a new app in the folder <code>railsgirls</code>, so we again want to change the directory to be inside of our rails app by running:
+명령어 실행 결과 <code>railsgirls</code> 폴더에 앱을 새로 만듭니다. 레일스 앱 폴더로 이동하겠습니다:
     </div>
 
 {% highlight sh %}
@@ -88,7 +88,7 @@ cd railsgirls
 {% endhighlight %}
 
     <div>
-If you run <code>ls</code> inside of the directory you should see folders such as <code>app</code> and <code>config</code>. You can then start the rails server by running:
+이동한 디렉토리에서 <code>ls</code> 명령어를 실행하면 <code>app</code>과  <code>config</code> 폴더가 있습니다. 레일스를 서버로 실행합니다:
     </div>
 
 {% highlight sh %}
@@ -102,7 +102,7 @@ mkdir projects
 {% endhighlight %}
 
     <div>
-You can verify that a directory named <code>projects</code> was created by running the list command: <code>dir</code>. You should see the <code>projects</code> directory in the output. Now you want to change the directory you are currently in to the <code>projects</code> folder by running:
+<code>projects</code>라는 이름의 디렉토리가 있는지 확인하려면 list 명령어를 실행합니다: <code>dir</code>. <code>projects</code>라는 디렉토리를 화면에 출력됩니다. 그럼 위치를 <code>projects</code> 폴더로 이동하겠습니다:
     </div>
 
 {% highlight sh %}
@@ -110,7 +110,7 @@ cd projects
 {% endhighlight %}
 
     <div>
-You can verify you are now in an empty directory or folder by again running the <code>dir</code> command. Now you want to create a new app called <code>railsgirls</code> by running:
+<code>dir</code> 명령어를 실행해보면 디렉토리가 비어있습니다. 그럼 아래와 같이 <code>railsgirls</code> 라는 이름으로 앱을 새로 만들겠습니다:
     </div>
 
 {% highlight sh %}
@@ -118,13 +118,13 @@ rails new railsgirls -m http://railsgirls.com/simple_scaffold.rb
 {% endhighlight %}
 
     <div>
-        <code>rails new railsgirls</code> tells Rails to generate a project called railsgirls with all the files that our application needs.
+        <code>rails new railsgirls</code> 실행결과 레일스는 railsgirls 라는 이름으로 프로젝트를 생성하고 프로젝트에 필요한 모든 파일을 생성합니다.
     </div>
     <div>
-        <code>-m http://railsgirls.com/simple_scaffold.rb</code> tells Rails to download a special template from railsgirls.com which makes the files a bit simpler and easier for beginners to understand.
+        <code>-m http://railsgirls.com/simple_scaffold.rb</code> 실행결과 레일스는 템플릿 파일을 railsgirls.com에서 가져와서 초심자가 이해하기에 쉬운 간단한 코드를 만듭니다.
     </div>
     <div>
-This will create a new app in the folder <code>railsgirls</code>, so we again want to change the directory to be inside of our rails app by running:
+명령어 실행 결과 <code>railsgirls</code> 폴더에 앱을 새로 만듭니다. 레일스 앱 폴더로 이동하겠습니다:
     </div>
 
 {% highlight sh %}
@@ -132,7 +132,7 @@ cd railsgirls
 {% endhighlight %}
 
     <div>
-If you run <code>dir</code> inside of the directory you should see folders such as <code>app</code> and <code>config</code>. You can then start the rails server by running:
+이동한 디렉토리에서 <code>dir</code> 명령어를 실행하면 <code>app</code>과  <code>config</code> 폴더가 있습니다. 레일스를 서버로 실행합니다:
     </div>
 
 {% highlight sh %}
@@ -141,11 +141,11 @@ ruby bin\rails server
   </div>
 </div>
 
-**Windows users:** You may need to replace `bin\rails` with `script\rails`, depending on the version of Rails you have installed.
+**윈도우즈 사용자:** 레일스를 설치한 버전에 따라서 `bin\rails` 대신 `script\rails`를 실행해야합니다.
 
-Open [http://localhost:3000](http://localhost:3000) in your browser. You should see "Welcome aboard" page, which means that the generation of your new app worked correctly.
+브라우저 주소창에 [http://localhost:3000](http://localhost:3000) 입력합니다. "Welcome aboard" 페이지가 나타납니다. 새로운 앱을 오류없이 만들었습니다.
 
-Notice in this window the command prompt is not visible because you are now in the Rails server, the command prompt looks like this:
+레일스 서버를 실행하였기 때문에 터미널에서 깜빡이는 프롬프트가 사라졌습니다. 아래와 같이 보입니다:
 
 <div class="os-specific">
   <div class="nix">
@@ -160,17 +160,17 @@ $
   </div>
 </div>
 
-When the command prompt is not visible you cannot execute new commands. If you try running `cd` or another command it will not work. To return to the normal command prompt:
+명령행 프롬프트가 보이지 않아서 다른 명령어를 실행할 수 없습니다. `cd` 명령어를 실행해봐도 꿈쩍하지 않습니다. 정상으로 돌아가려면 다음과 같이 합니다:
 
-Hit `CTRL-C` in the terminal to quit the server.
+터미널에서 `CTRL-C` 를 치고 서버를 종료합니다.
 
-**Coach:** Explain what each command does. What was generated? What does the server do? You can find more details about the special template on [GitHub](https://github.com/Ben-M/simple_scaffold).
+**Coach:** 명령어를 하나씩 설명하세요. 실행결과 무엇을 만들었나요? 서버가 무엇을 하나요? 특별한 템플릿 몇가지는  [GitHub](https://github.com/Ben-M/simple_scaffold)에서 참고하세요.
 
 ## *2.*Create Idea scaffold
 
-We're going to use Rails' scaffold functionality to generate a starting point that allows us to list, add, remove, edit, and view things; in our case ideas.
+이번에는 아이디어(idea)를 대상으로 아이디어 전체 목록을 나열하고 추가 삭제 수정하고, 아이디어 하나를 보여주는 코드를 한번에 만들어주는 레일스 스캐폴딩을 사용하겠습니다.
 
-**Coach:** What is Rails scaffolding? (Explain the command, the model name and related database table, naming conventions, attributes and types, etc.) What are migrations and why do you need them?
+**Coach:** 레일스 스캐폴딩은 무엇인가요? (명령어, 모델 이름, 데이터베이스 테이블, 이름을 짓는 규칙, 속성과 타입 등을 설명합니다.) 마이그레이션은 무엇이고 마이그레이션이 왜 필요한가요?
 
 <div class="os-specific">
   <div class="nix">
@@ -186,7 +186,7 @@ rails generate scaffold idea name:string description:text picture:string
   </div>
 </div>
 
-The scaffold creates new files in your project directory, but to get it to work properly we need to run a couple of other commands to update our database and restart the server.
+스캐폴드는 프로젝트 디렉토리에서 파일을 새로 만듭니다. 하지만 제대로 동작하려면 명령어를 몇개를 실행하여 데이터베이스를 업데이트하고 서버를 재시작해야합니다.
 
 <div class="os-specific">
   <div class="nix">
@@ -204,37 +204,37 @@ ruby bin\rails server
   </div>
 </div>
 
-Open [http://localhost:3000/ideas](http://localhost:3000/ideas) in your browser. Click around and test what you got by running these few command-line commands.
+브라우저 주소창에  [http://localhost:3000/ideas](http://localhost:3000/ideas) 입력합니다. 화면에 보이는 아무 링크나 클릭해보고 실행결과를 봅니다.
 
-Hit `CTRL-C` to quit the server again when you've clicked around a little.
+`CTRL-C` 쳐서 서버를 종료합니다.
 
 
 ## *3.*Design
 
-**Coach:** Talk about the relationship between HTML and Rails. What part of views is HTML and what is Embedded Ruby (ERB)? What is MVC and how does this relate to it? (Models and controllers are responsible for generating the HTML views.)
+**Coach:** HTML과 레일스의 관계를 설명하세요. 뷰에서 HTML는 어느 파트이고 임베디드 루비(ERB)는 무엇인가요? MVC는 무엇이고 서로 어떤 관련이 있나요?(모델과 컨트롤러가 HTML 뷰를 생성하는데 맡은 역할)
 
-The app doesn't look very nice yet. Let's do something about that. We'll use the Twitter Bootstrap project to give us nicer styling really easily.
+앱은 아직까지 밋밋해보입니다. 좀 꾸며보겠습니다. 트위터 부트스트랩 프로젝트를 사용하여 매우 쉽게 프로젝트를 꾸며보겠습니다.
 
-Open `app/views/layouts/application.html.erb` in your text editor and above the line
+텍스트 에디터로 `app/views/layouts/application.html.erb` 파일을 편집합니다.
 
 {% highlight erb %}
 <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
 {% endhighlight %}
 
-add
+줄 위에 
 
 {% highlight erb %}
 <link rel="stylesheet" href="//railsgirls.com/assets/bootstrap.css" />
 <link rel="stylesheet" href="//railsgirls.com/assets/bootstrap-theme.css" />
 {% endhighlight %}
 
-and replace
+를 넣고 아래와 같은 줄을 
 
 {% highlight erb %}
 <%= yield %>
 {% endhighlight %}
 
-with
+다음과 같이 
 
 {% highlight erb %}
 <div class="container">
@@ -242,7 +242,7 @@ with
 </div>
 {% endhighlight %}
 
-Let's also add a navigation bar and footer to the layout. In the same file, under `<body>` add
+수정합니다. 레이아웃에 네비게이션 바와 푸터를 붙이겠습니다. `<body>` 태크 아래에 
 
 {% highlight html %}
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -265,7 +265,7 @@ Let's also add a navigation bar and footer to the layout. In the same file, unde
 </nav>
 {% endhighlight %}
 
-and before `</body>` add
+와 같이 넣고 `</body>` 태그를 닫기 전에
 
 {% highlight html %}
 <footer>
@@ -276,7 +276,7 @@ and before `</body>` add
 <script src="//railsgirls.com/assets/bootstrap.js"></script>
 {% endhighlight %}
 
-Now let's also change the styling of the ideas table. Open `app/assets/stylesheets/application.css` and at the bottom add
+넣습니다. 그럼 아이디어 테이블도 꾸미겠습니다. `app/assets/stylesheets/application.css` 파일을 아래와 같이 수정합니다.
 
 {% highlight css %}
 body { padding-top: 100px; }
@@ -285,154 +285,154 @@ table, td, th { vertical-align: middle !important; border: none !important; }
 th { border-bottom: 1px solid #DDD !important; }
 {% endhighlight %}
 
-Now make sure you saved your files and refresh the browser to see what was changed. You can also change the HTML & CSS further.
+파일을 저장하고 브라우저의 새로고침 버튼을 누르면 수정한 내용이 나타납니다. HTML과 CSS를 좀 더 바꿀 수 있습니다.
 
-**Coach:** Talk a little about CSS and layouts.
+**Coach:** CSS와 레이아웃에 대해 간략히 설명하세요.
 
 
 ## *4.*Adding picture uploads
 
-We need to install a piece of software to let us upload files in Rails.
+레일스에 파일을 업로드하려면 소프트웨어 몇개를 설치해야 합니다.
 
-Open `Gemfile` in the project directory using your text editor and under the line
+프로젝트 디렉토리에서 `Gemfile` 이라는 파일을 텍스트 에디터로 아래와 같이 수정합니다.
 
 {% highlight ruby %}
 gem 'sqlite3'
 {% endhighlight %}
 
-add
+아래 줄에 다음과 같이 젬을 추가합니다.
 
 {% highlight ruby %}
 gem 'carrierwave'
 {% endhighlight %}
 
-**Coach:** Explain what libraries are and why they are useful. Describe what open source software is.
+**Coach:** 라이브러리가 무엇이고 왜 유용한지 설명하세요. 오픈 소스 소프트웨어를 설명하세요.
 
-In the terminal run:
+터미널에서 아래와 같이 실행합니다:
 
 {% highlight sh %}
 bundle
 {% endhighlight %}
 
-Now we can generate the code for handling uploads. In the terminal run:
+그런 다음 업로드를 처리하는 코드를 짜겠습니다. 터미널에서 아래와 같이 실행합니다:
 
 {% highlight sh %}
 rails generate uploader Picture
 {% endhighlight %}
 
-At this point you need to **restart the Rails server process** in the terminal.
+**레일스 서버를 재시작**합니다.
 
-Hit `CTRL-C` in the terminal to quit the server. Once it has stopped, you can press the up arrow to get to the last command entered, then hit enter to start the server again.
+터미널에서 `CTRL-C` 쳐서 서버를 종료합니다. 종료하면 윗방향 화살표를 누르면 최근에 실행한 명령어가 나타납니다. 최근 명령어로 서버를 재시작할 수 있습니다.
 
-This is needed for the app to load the added library.
+재시작해야 앞서 추가한 라이브러리를 사용할 수 있습니다.
 
-Open `app/models/idea.rb` and under the line
+`app/models/idea.rb` 파일을 수정합니다. 
 
 {% highlight ruby %}
 class Idea < ActiveRecord::Base
 {% endhighlight %}
 
-add
+줄 아래에 
 
 {% highlight ruby %}
 mount_uploader :picture, PictureUploader
 {% endhighlight %}
 
-Open `app/views/ideas/_form.html.erb` and change
+와 같이 추가합니다. `app/views/ideas/_form.html.erb` 파일을 수정합니다. 
 
 {% highlight erb %}
 <%= f.text_field :picture %>
 {% endhighlight %}
 
-to
+를 아래와 같이 
 
 {% highlight erb %}
 <%= f.file_field :picture %>
 {% endhighlight %}
 
-Sometimes, you might get an *TypeError: can't cast ActionDispatch::Http::UploadedFile to string*.
+바꿉니다. 어쩌면, *TypeError: can't cast ActionDispatch::Http::UploadedFile to string* 에러가 발생할 수 있습니다.
 
-If this happens, in file `app/views/ideas/_form.html.erb` change the line
+이런 경우, `app/views/ideas/_form.html.erb` 파일을 수정합니다.
 
 {% highlight erb %}
 <%= form_for(@idea) do |f| %>
 {% endhighlight %}
 
-to
+를 아래와 같이 
 
 {% highlight erb %}
 <%= form_for @idea, :html => {:multipart => true} do |f| %>
 {% endhighlight %}
 
-In your browser, add new idea with a picture. When you upload a picture it doesn't look nice because it only shows a path to the file, so let's fix that.
+바꿉니다. 브라우저에서 아이디어에 사진을 넣을 수 있습니다. 사진 파일을 업로드해보면 사진이 안보이고 파일 위치만 보입니다. 사진이 보이도록 수정하겠습니다.
 
-Open `app/views/ideas/show.html.erb` and change
+`app/views/ideas/show.html.erb` 파일을 수정합니다.
 
 {% highlight erb %}
 <%= @idea.picture %>
 {% endhighlight %}
 
-to
+를 아래와 같이 
 
 {% highlight erb %}
 <%= image_tag(@idea.picture_url, :width => 600) if @idea.picture.present? %>
 {% endhighlight %}
 
-Now refresh your browser to see what changed.
+바꿉니다. 브라우저의 새로고침 버튼을 눌르면 사진이 보입니다.
 
-**Coach:** Talk a little about HTML.
+**Coach:** HTML를 간략히 설명하세요.
 
 
 ## *5.*Finetune the routes
 
-If you try to open [http://localhost:3000](http://localhost:3000) it still shows the "Welcome aboard" page. Let's make it redirect to the ideas page.
+브라우저에서 <http://localhost:3000> (클라우드 서비스를 사용하면 미리보기 주소)로 이동합니다. 첫 페이지가 "Welcome aboard"가 보이는데 첫 페이지를 아이디어 페이지가 보이도록 바꾸겠습니다. 
 
-Open `config/routes.rb` and after the first line add
+`config/routes.rb` 파일을 수정합니다. 첫번째 줄에 아래와 같이 추가합니다.
 
 {% highlight ruby %}
 root :to => redirect('/ideas')
 {% endhighlight %}
 
-Test the change by opening the root path (that is, http://localhost:3000/) in your browser.
+브라우저에서 루트 패스(<http://localhost:3000/> 또는 미리보기 주소)를 열어서 수정한 내용을 확인합니다.
 
-**Coach:** Talk about routes, and include details on the order of routes and their relation to static files.
+**Coach:** 라우트를 설명합니다. 스태틱 파일의 관계와 라우트 순서를 포함하여 설명합니다.
 
-**Rails 3 users:** You will need to delete the index.html from the `/public/` folder for this to work.
+**Rails 3 users:** `/public/` 디렉토리의 index.html 파일을 삭제해야 합니다.
 
 ## Create static page in your app
 
-Lets add a static page to our app that will hold information about the author of this application — you!
+애플리케이션를 만든 사람을 소개하는 정보를 담은 스태틱 페이지를 만들겠습니다!
 
 {% highlight sh %}
 rails generate controller pages info
 {% endhighlight %}
 
-This command will create you a new folder under `app/views` called `/pages` and under that a file called `info.html.erb` which will be your info page.
+위의 명령어 실행결과 `app/views` 폴더 아래에 `pages` 폴더와 그 아래에 소개 정보를 넣을 `info.html.erb` 파일을 생성합니다.
 
-It also adds a new simple route to your routes.rb.
+그리고 routes.rb 파일에 아래와 같이 추가됩니다.
 
 {% highlight ruby %}
 get "pages/info"
 {% endhighlight %}
 
-Now you can open the file `app/views/pages/info.html.erb` and add information about you in HTML and then take your browser to [http://localhost:3000/pages/info](http://localhost:3000/pages/info) to see your new info page.
+`app/views/pages/info.html.erb` 파일에 HTML로 여러분에 대해 정보를 넣습니다. 새로 만든 페이지를 보려면,  [http://localhost:3000/pages/info](http://localhost:3000/pages/info) 브라우저로 이동합니다.
 
 ## What next?
 
-* Add design using HTML &amp; CSS
-* Add ratings
-* Use CoffeeScript (or JavaScript) to add interaction
-* Add picture resizing to make loading the pictures faster
+* HTML과 CSS로 디자인합니다.
+* 평점 매기는 기능을 추가합니다.
+* 커피스크립트(자바스크립트)로 화면에서 움직이는 코드를 짭니다.
+* 사진 파일 크기를 줄여서 사진이 화면에 빨리 보이도록 수정합니다.
 
 
 ## Additional Guides
 
-* Guide 0: [Handy cheatsheet for Ruby, Rails, console etc.](https://github.com/PragTob/rails-beginner-cheatsheet)
-* Guide 1: [Add commenting by Janika Liiv](/commenting)
-* Guide 2: [Put your app online with Heroku by Terence Lee](/heroku) / [Put your app online with OpenShift by Katie Miller](/openshift)
+* Guide 0: [루비, 레일스, 콘솔에 대한 치트시트](https://github.com/PragTob/rails-beginner-cheatsheet)
+* Guide 1: [댓글 달기 Janika Liiv](/commenting)
+* Guide 2: [헤로쿠로 배포하기 Terence Lee](/heroku) / [오픈시프트로 배포하기 Katie Miller](/openshift)
 * Guide 3: [Build a map of workshop participants by Rails Girls Berlin](http://railsgirlsberlin.de/apptutorial/)
-* Guide 4: [Create thumbnail images for the uploads by Miha Filej](/thumbnails)
-* Guide 5: [Add design using HTML &amp; CSS by Alex Liao](/design)
-* Guide 6: [Add Authentication (user accounts) with Devise by Piotr Steininger](/devise/)
-* Guide 7: [Go through additional explanations for the App by Lucy Bain](https://github.com/lbain/railsgirls)
+* Guide 4: [썸네일 이미지 만들기 Miha Filej](/thumbnails)
+* Guide 5: [HTML과 CSS 디자인 Alex Liao](/design)
+* Guide 6: [디바이즈 젬을 사용하여 인증(사용자 계정)하기 Piotr Steininger](/devise/)
+* Guide 7: [위에서 만든 레일스 걸스 애플리케이션을 단계별로 설명 Lucy Bain](https://github.com/lbain/railsgirls)
 
