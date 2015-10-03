@@ -4,61 +4,61 @@ title: Adding Graviatar to you app
 permalink: gravatar
 ---
 
-# Adding Gravatar to your App
+# 앱에 그라바타트를 넣습니다.
 
 *Created by Catherine Jones*
 
-This guide assumes that you have already built a Rails Girls app by following this [app development guide](http://guides.railsgirls.com/app/) and added authentication using [Devise](http://guides.railsgirls.com/devise/).
+[앱 개발 가이드](http://guides.railsgirls.com/app/)와 [디바이즈](http://guides.railsgirls.com/devise/) 젬으로 인증하기를 따라서 레일스 걸스 앱스를 이미 만들어두어야 합니다.
 
 ### Important
 
-You need to have an e-mail address registered with Gravatar for this to work. If you do not already have one you can go to [gravatar.com](http://en.gravatar.com/).
+여기서는 그라바타에 이메일 주소를 등록해두어야 합니다. 등록하지 않았다면 [gravatar.com](http://en.gravatar.com/)로 가서 등록할 수 있습니다.
 
 ## *1.* Add the Gravtastic gem
 
-Open up your gemfile and under your `devise` gem add
+gemfile을 수정합니다. `devise` 젬 아래에 다음과 같이 추가합니다.
 
 {% highlight ruby %}
 gem 'gravtastic'
 {% endhighlight %}
 
-In the terminal run
+터미널에서 아래와 같이 실행합니다.
 
 {% highlight sh %}
 bundle install
 {% endhighlight %}
 
-This will install the gravtastic gem. Then remember to restart your rails server.
+그라바타를 사용하는 젬을 설치하고 레일스 서버를 재시작합니다.
 
 ## *2.* Set up Gravatar in your app
 
-Open `app/models/user.rb`, and add these lines
+`app/models/user.rb` 파일을 수정합니다. 아래와 같이
 
 {% highlight ruby %}
 include Gravtastic
 gravtastic
 {% endhighlight %}
 
-right after the first line.
+첫째줄 아래에 추가합니다.
 
 ## *3.* Configure Gravatar
 
-Open `app/views/layouts/application.html.erb` and in the
+`app/views/layouts/application.html.erb` 파일을 수정합니다. 
 
 {% highlight erb %}
 <% if user_signed_in? %>
 {% endhighlight %}
 
-section but before the
+섹션에서 
 
 {% highlight erb %}
 <% else %>
 {% endhighlight %}
 
-add
+코드 위에 아래와 가이 추가합니다.
 
 {% highlight erb %}
 <%= image_tag current_user.gravatar_url %>
 {% endhighlight %}
 
-Now open you app in your browser and login with an e-mail address that is associated with a Gravatar. You should be able to see your Gravatar.
+브라우저를 열어서 이메일 주소로 로그인하면 그라바타에 등록한 프로필 사진이 나타납니다.
