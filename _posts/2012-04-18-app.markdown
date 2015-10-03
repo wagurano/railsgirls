@@ -19,7 +19,7 @@ permalink: app
 
 ### 텍스트 에디터
 
-* [아톰](https://atom.io/), [서브라임 텍스트](http://www.sublimetext.com),  빔과 이맥스는 코드를 짜고 파일을 편집하는 대표적인 텍스트입니다.
+* [아톰](https://atom.io/), [서브라임 텍스트](http://www.sublimetext.com),  빔과 이맥스는 코드를 짜고 파일을 편집하는 대표적인 텍스트 에디터입니다.
 
 <h3><i class="icon-prompt">&nbsp;</i></h3>
 
