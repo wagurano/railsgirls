@@ -4,9 +4,9 @@ title: Add design to your App with HTML and CSS
 permalink: design-html-css
 ---
 
-1.Design your header
+1.헤더를 디자인합니다.
 
-+ put the following code to the bottom of `app/assets/stylesheets/application.css`:
++ `app/assets/stylesheets/application.css` 파일에 아래와 같이 추가합니다:
 
     ```
     .navbar {
@@ -15,13 +15,13 @@ permalink: design-html-css
     }
     ```
 
-  Now refresh the page and check the changes. You can try change the
-    color or font of the header. You can check the color reference
-    from [http://color.uisdc.com/](http://color.uisdc.com/).
+  새로고침 버튼을 눌러서 페이지를 보면 디자인이 바뀝니다. 
+    헤더의 글꼴과 색깔을 바꿀 수 있습니다. 색깔 참조표는 
+    [http://color.uisdc.com/](http://color.uisdc.com/)를 참고합니다.
 
-    **Coach: ** talk about the property `display`, inline and block element.
+    **Coach: ** `display` 프라퍼티와 인라인, 블록 엘리먼트를 설명하세요.
 
-+ Then put these lines at the bottom：
++ 파일 맨 끝에 아래와 같이 코드를 추가합니다：
 
     ```
     .navbar a.brand { font-size: 18px; }
@@ -32,35 +32,35 @@ permalink: design-html-css
     }
     ```
 
-    **Coach: ** explain the 4 states of a link
+    **Coach: ** 링크의 4가지 상태를 설명하세요.
 
 
-2.Design your table
+2.테이블을 디자인합니다.
 
- + We simply use the twitter [Bootstrap](http://www.bootcss.com/) to
-   polish our table。find this line from
-   app/views/ideas/index.html.erb and replace:
+ + 트위터 [부트스트랩](http://www.bootcss.com/)을 사용하여 
+   테이블을 꾸밉니다. 
+   app/views/ideas/index.html.erb 파일에서 아래 코드를 찾아서 :
 
    ```
    <table>
    ```
 
-   with
+   다음과 같이 수정합니다.
 
    ```
    <table class="table">
    ```
 
- + Modify size of the picture using the following lines
+ + 아래와 같이 수정하여 사진 크기를 바꿉니다.
 
      ```
      <%= image_tag(idea.picture_url, :width => 600) if idea.picture.present? %>
      ```
 
-     try to change the width and see what's gonna happen
+     width를 수정하여 어떻게 보이는지 확인합니다.
 
 
- + add the following lines to the bottom of file app/assets/stylesheets/ideas.css.scss:
+ + app/assets/stylesheets/ideas.css.scss 파일의 맨 끝에 아래와 같이 추가합니다:
 
   ```
   .container a:hover {
@@ -71,14 +71,14 @@ permalink: design-html-css
   ```
 
 
- + try add some background style with property `background-image`,
-   reference to
-   [http://subtlepatterns.com/](http://subtlepatterns.com/) for some patterns.
+ + `background-image` 프라퍼티를 백그라운드에 추가합니다.
+   몇가지 사례는 
+   [http://subtlepatterns.com/](http://subtlepatterns.com/)를 참고합니다.
 
 
-3.add style to footer
+3.푸터에 스타일을 추가합니다.
 
-+ add the lines to bottom of  app/assets/stylesheets/application.css:
++ app/assets/stylesheets/application.css 파일 맨 끝에 다음과 같이 추가합니다:
 
     ```
     footer {
@@ -87,15 +87,15 @@ permalink: design-html-css
     }
     ```
 
-    try put more things into `footer`, then adjust it's position.
+    `footer`에 다른 것을 넣어보고 위치를 조정해봅니다.
 
-4.add style to button
+4.버튼에 스타일을 추가합니다.
 
-  + open
+  + 브라우저로 
     [http://localhost:3000/ideas/new](http://localhost:3000/ideas/new)
-    and find the `Create Idea` button.
+    이동하여 `Create Idea` 버튼을 찾습니다.
 
-   add these lines to app/assets/stylesheets/ideas.css.scss
+   app/assets/stylesheets/ideas.css.scss 파일에 아래와 같이 추가합니다.
 
    ```
    .container input[type="submit"] {
@@ -107,5 +107,5 @@ permalink: design-html-css
     }
    ```
 
-   **Coach** explain how to use `border` in css, try modify the style
-     of button like round the corner, add shadow or color etc.
+   **Coach** css에서 `border`를 어떻게 사용하는지 설명하세요. 
+     버튼 스타일을 둥근 모양으로 바꾸고 그림자와 색깔을 바꿔봅니다.
