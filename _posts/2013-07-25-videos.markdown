@@ -4,72 +4,72 @@ title: Rails Girls on video
 permalink: videos
 ---
 
-# Rails Girls Happiness All Around the World
+# 레일스 걸스 세계 곳곳의 행복
 
-This is a selection of Rails Girls videos from around the world. Have one to share? Add it here.
+세계 곳곳에서 개최한 레일스 걸스의 비디오를 모았습니다. 공유하고 싶은 동영상이 있을까요? 여기에 넣어주세요.
 
-### Rails Girls Ljubljana 2014
+### 레일스 걸스 류블랴나(슬로베니아) 2014
 
-<div><iframe src="//player.vimeo.com/video/103805173" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/103805173">Rails Girls Ljubljana - May 2014</a> from <a href="http://vimeo.com/naisnouk">Nais Nouk</a> on <a href="https://vimeo.com">Vimeo</a>.</p></div>
+<div><iframe src="//player.vimeo.com/video/103805173" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/103805173">레일스 걸스 류블랴나(슬로베니아) - 2014년 5월</a> 촬영 <a href="http://vimeo.com/naisnouk">Nais Nouk</a> 출처 <a href="https://vimeo.com">비메오</a>.</p></div>
 
-### Rails Girls Taipei-02 2013.11
+### 레일스 걸스 타이베이(대만)-02 2013.11
 
-<div><iframe width="500" height="375" src="http://www.youtube.com/embed/BJpaj96RgHw" frameborder="0"> </iframe><p><a href="http://railsgirls.tw">Rails Girls Taiwan</a> on <a href="https://www.youtube.com/channel/UCGaidly9iC-V3P6hScH95Cw">Youtube</a>.</p></div>
+<div><iframe width="500" height="375" src="http://www.youtube.com/embed/BJpaj96RgHw" frameborder="0"> </iframe><p><a href="http://railsgirls.tw">레일스 걸스 대만</a> 출처 <a href="https://www.youtube.com/channel/UCGaidly9iC-V3P6hScH95Cw">유투브</a>.</p></div>
 
-### Rails Girls Taipei-01 2013.09
+### 레일스 걸스 타이베이(대만)-01 2013.09
 
-<div><iframe width="500" height="375" src="http://www.youtube.com/embed/9jZTbqokELM?rel=0" frameborder="0"> </iframe><p><a href="http://railsgirls.tw">Rails Girls Taiwan</a> on <a href="https://www.youtube.com/channel/UCGaidly9iC-V3P6hScH95Cw">Youtube</a>.</p></div>
+<div><iframe width="500" height="375" src="http://www.youtube.com/embed/9jZTbqokELM?rel=0" frameborder="0"> </iframe><p><a href="http://railsgirls.tw">레일스 걸스 대만</a> 출처 <a href="https://www.youtube.com/channel/UCGaidly9iC-V3P6hScH95Cw">유투브</a>.</p></div>
 
-### Rails Girls Brno 2013
+### 레일스 걸스 브루노(체코) 2013
 
-<div><iframe src="http://player.vimeo.com/video/70095213" width="500" height="281" frameborder="0"> </iframe><p><a href="http://vimeo.com/70095213">Rails Girls Brno</a> from <a href="http://vimeo.com/user19466822">Rails Girls CZ</a> on <a href="https://vimeo.com">Vimeo</a>.</p></div>
+<div><iframe src="http://player.vimeo.com/video/70095213" width="500" height="281" frameborder="0"> </iframe><p><a href="http://vimeo.com/70095213">레일스 걸스 브루노(체코)</a> 촬영 <a href="http://vimeo.com/user19466822">레일스 걸스 체코</a> 출처 <a href="https://vimeo.com">비메오</a>.</p></div>
 
-### Rails Girls Summer of Code 2013
+### 레일스 걸스 써머 오브 코드 2013
 
-<div><iframe src="http://player.vimeo.com/video/67004430" width="500" height="281" frameborder="0"> </iframe><p><a href="http://vimeo.com/67004430">Rails Girls Summer of Code</a> from <a href="http://vimeo.com/langalex">Alexander Lang</a> on <a href="https://vimeo.com">Vimeo</a>.</p></div>
+<div><iframe src="http://player.vimeo.com/video/67004430" width="500" height="281" frameborder="0"> </iframe><p><a href="http://vimeo.com/67004430">레일스 걸스 써머 오브 코드</a> 촬영 <a href="http://vimeo.com/langalex">Alexander Lang</a> 출처 <a href="https://vimeo.com">비메오</a>.</p></div>
 
-### Rails Girls Helsinki 2010
+### 레일스 걸스 헬싱키(핀란드) 2010
 
-<div><iframe src="http://player.vimeo.com/video/17752439" width="500" height="281" frameborder="0"> </iframe><p><a href="http://vimeo.com/17752439">Rails for Girls</a> from <a href="http://vimeo.com/kiskolabs">Kisko Labs</a> on <a href="https://vimeo.com">Vimeo</a>.</p></div>
+<div><iframe src="http://player.vimeo.com/video/17752439" width="500" height="281" frameborder="0"> </iframe><p><a href="http://vimeo.com/17752439">레일스 포 걸스</a> 촬영 <a href="http://vimeo.com/kiskolabs">Kisko Labs</a> 출처 <a href="https://vimeo.com">비메오</a>.</p></div>
 
-### Rails Girls Beograd 2013
+### 레일스 걸스 베오그라드(세르비아) 2013
 
-<div><iframe src="http://player.vimeo.com/video/71897645" width="500" height="281" frameborder="0"> </iframe> <p><a href="http://vimeo.com/71897645">Rails Girls Beograd</a> from <a href="http://vimeo.com/nemanja">Nemanja Stojanović</a> on <a href="https://vimeo.com">Vimeo</a>.</p></div>
+<div><iframe src="http://player.vimeo.com/video/71897645" width="500" height="281" frameborder="0"> </iframe> <p><a href="http://vimeo.com/71897645">레일스 걸스 베오그라드(세르비아)</a> 촬영 <a href="http://vimeo.com/nemanja">Nemanja Stojanović</a> 출처 <a href="https://vimeo.com">비메오</a>.</p></div>
 
-### Rails Girls Rheinland 2013
+### 레일스 걸스 라인란트(라인강 지역 일부) 2013
 
-<div><iframe src="http://player.vimeo.com/video/62054262" width="500" height="281" frameborder="0"> </iframe> <p><a href="http://vimeo.com/62054262">Rails Girls Rheinland - March 1 + 2</a> from <a href="http://vimeo.com/user14112349">Liane Th&ouml;nnes</a> on <a href="https://vimeo.com">Vimeo</a>.</p></div>
+<div><iframe src="http://player.vimeo.com/video/62054262" width="500" height="281" frameborder="0"> </iframe> <p><a href="http://vimeo.com/62054262">레일스 걸스 라인란트(라인강 지역 일부) - 2013년 3월</a> 촬영 <a href="http://vimeo.com/user14112349">Liane Th&ouml;nnes</a> 출처 <a href="https://vimeo.com">비메오</a>.</p></div>
 
-### Rails Girls Maribor 2013
+### 레일스 걸스 마리보르(슬로베니아) 2013
 
-<div><iframe src="http://player.vimeo.com/video/68032937" width="500" height="281" frameborder="0"> </iframe> <p><a href="http://vimeo.com/68032937">Rails Girls Maribor</a> from <a href="http://vimeo.com/user207750">Gretzki</a> on <a href="https://vimeo.com">Vimeo</a>.</p></div>
+<div><iframe src="http://player.vimeo.com/video/68032937" width="500" height="281" frameborder="0"> </iframe> <p><a href="http://vimeo.com/68032937">레일스 걸스 마리보르(슬로베니아)</a> 촬영 <a href="http://vimeo.com/user207750">Gretzki</a> 출처 <a href="https://vimeo.com">Vimeo</a>.</p></div>
 
-### Rails Girls Sofia 2013
+### 레일스 걸스 소피아(불가리아) 2013
 
-<div><iframe src="//player.vimeo.com/video/88082907?color=ff0179" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/88082907">Rails Girls Sofia - May 2013</a> from <a href="http://vimeo.com/mitio">Dimitar Dimitrov</a> on <a href="https://vimeo.com">Vimeo</a>.</p></div>
+<div><iframe src="//player.vimeo.com/video/88082907?color=ff0179" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/88082907">레일스 걸스 소피아(불가리아) - 2013년 5월</a> 촬영 <a href="http://vimeo.com/mitio">Dimitar Dimitrov</a> 출처 <a href="https://vimeo.com">비메오</a>.</p></div>
 
-### Rails Girls Ljubljana 2013
+### 레일스 걸스 류블랴나(슬로베니아) 2013
 
 <div><iframe scrolling="no" marginheight="0" marginwidth="0" src="http://tsstartup.viidea.net/rg12_railsgirls/video/1/iframe/" frameborder="0" height="286px" width="500px"> </iframe></div>
 
-### Rails Girls Warsaw 2012
+### 레일스 걸스 바르샤바(폴란드) 2012
 
-<div><iframe src="http://player.vimeo.com/video/52451847" width="500" height="281" frameborder="0"> </iframe><p><a href="http://vimeo.com/52451847">Rails Girls Warsaw 2012</a> from <a href="http://vimeo.com/terczer">Terczer</a> on <a href="https://vimeo.com">Vimeo</a>.</p></div>
+<div><iframe src="http://player.vimeo.com/video/52451847" width="500" height="281" frameborder="0"> </iframe><p><a href="http://vimeo.com/52451847">레일스 걸스 바르샤바(폴란드) 2012</a> 출처 <a href="http://vimeo.com/terczer">Terczer</a> on <a href="https://vimeo.com">비메오</a>.</p></div>
 
-### Rails Girls Berlin 2012
+### 레일스 걸스 베를린(독일) 2012
 
-<div><iframe src="http://player.vimeo.com/video/40852182" width="500" height="281" frameborder="0"> </iframe> <p><a href="http://vimeo.com/40852182">Rails Girls Berlin 2012</a> from <a href="http://vimeo.com/langalex">Alexander Lang</a> on <a href="https://vimeo.com">Vimeo</a>.</p></div>
+<div><iframe src="http://player.vimeo.com/video/40852182" width="500" height="281" frameborder="0"> </iframe> <p><a href="http://vimeo.com/40852182">레일스 걸스 베를린(독일) 2012</a> 촬영 <a href="http://vimeo.com/langalex">Alexander Lang</a> 출처 <a href="https://vimeo.com">비메오</a>.</p></div>
 
-### Rails Girls Zurich 2012
+### 레일스 걸스 취리히(스위스) 2012
 
-<div><iframe src="http://player.vimeo.com/video/53032561" width="500" height="281" frameborder="0"> </iframe> <p><a href="http://vimeo.com/53032561">Rails Girls Zurich</a> from <a href="http://vimeo.com/danielpuglisi">Daniel Puglisi</a> on <a href="https://vimeo.com">Vimeo</a>.</p></div>
+<div><iframe src="http://player.vimeo.com/video/53032561" width="500" height="281" frameborder="0"> </iframe> <p><a href="http://vimeo.com/53032561">레일스 걸스 취리히(스위스)</a> 촬영 <a href="http://vimeo.com/danielpuglisi">Daniel Puglisi</a> 출처 <a href="https://vimeo.com">비메오</a>.</p></div>
 
-### Rails Girls Cologne 2012
+### 레일스 걸스 쾰른(독일) 2012
 
-<div><iframe src="http://player.vimeo.com/video/51511255" width="500" height="281" frameborder="0"> </iframe> <p><a href="http://vimeo.com/51511255">Rails Girls Cologne - September 2012</a> from <a href="http://vimeo.com/user14112349">Liane Th&ouml;nnes</a> on <a href="https://vimeo.com">Vimeo</a>.</p></div>
+<div><iframe src="http://player.vimeo.com/video/51511255" width="500" height="281" frameborder="0"> </iframe> <p><a href="http://vimeo.com/51511255">레일스 걸스 퀼른(독일) - 2012년 9월</a> 촬영 <a href="http://vimeo.com/user14112349">Liane Th&ouml;nnes</a> 출처 <a href="https://vimeo.com">비메오</a>.</p></div>
 
 
-### Rails Girls Ljubljana 2012
+### 레일스 걸스 류블랴나(슬로베니아) 2012
 
 <div><iframe scrolling="no" marginheight="0" marginwidth="0" src="http://tsstartup.viidea.net/rg12_ruby_on_rails_workshop_for_girls/video/1/iframe/" frameborder="0" height="286px" width="500px"> </iframe></div>
-<p><a href="https://www.facebook.com/RailsGirlsLjubljana/app_479624635422684" target="_blank">Watch all Rails Girls Ljubljana lectures (in Slovenian)</a></p>
+<p><a href="https://www.facebook.com/RailsGirlsLjubljana/app_479624635422684" target="_blank">레일스 걸스 류브랴나(슬로베니아) 강의 전체를 봅니다</a></p>
