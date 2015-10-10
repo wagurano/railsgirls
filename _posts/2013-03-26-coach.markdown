@@ -4,89 +4,89 @@ title: Guides
 permalink: coach
 ---
 
-# Being a Rails Girls coach
+# 레일스 걸스 도우미(코치)가 되는 방법
 
 *All your basic questions answered in one place*
 
-### What do I need to be a Rails Girls coach?
+### 레일스 걸스 도우미가 되려면 무엇이 필요한가요?
 
-So, you've heard about [Rails Girls](http://railsgirls.com) and are wondering if you've got what it takes to be a coach at one of the workshops? That's awesome! Your interest in helping beginners dip their toes into web programming is already a great prerequisite! What else do you need?
+[레일스 걸스](http://railsgirls.com)에 대해 들어보셨나요. 워크샵에서 코치로 참여할지 궁금한가요? 대박! 초심자가 웹프로그래밍 세계에 발을 담그려고 도와주는데 여러분이 관심을 갖는 것만으로도 매우 훌륭한 조건입니다. 그 밖의 뭐가 필요한가요?
 
-- Patience, willingness to help, and a friendly attitude :)
-- Being able to answer all sorts of questions in a beginner friendly way (even if the explanation isn't *technically* completely exact) throughout the duration of the workshop.
-- Experience with web programming (you know what MVC means, right?), not necessarily in Rails.
-- Some time to go through the [basic app tutorial][app] before the event.
+- 인내, 도와주려는 의지, 친밀한 태도^^
+- 워크샵의 처음부터 끝까지 (설명이 *기술적으로* 실제와 다르더라도) 초심자가 이해하기 쉽게 여러가지 질문을 답해주기.
+- 웹프로그래밍 경험 (MVC가 무엇인지 알죠?) 레일스 경험은 필수가 아닙니다.
+- 행사에 참여하기 전에 [처음으로 애플리케이션 만들기][app]을 먼저 실습해봅니다.
 
-### Why should I be a Rails Girls coach?
+### 레일스 걸스 도우미가 되려는 이유가 무엇인가요?
 
-You mean besides incredibly good karma? Here are some very likely outcomes:
+여러분의 카르마가 정말 선한건가요? 아주 그럴듯한 결과가 있습니다:
 
-- You'll meet interesting new people outside your usual developer group.
-- You'll probably learn something new by answering questions you never thought of asking yourself.
-- Eternal gratitude from your group of girls and the Rails Girls community.
-- An epic [\#FridayHug](http://fridayhug.com) like you've never seen before.
-- You'll help break down stereotypes about women not being interested in technology and programming and thus help your sisters, female friends and relatives, (future) daughters have more choices in their future. And you can add all that on your CV!
+- 늘 만나는 개발자 그룹을 벗어나 흥미로운 사람들을 만납니다.
+- 여러분이 생각해보지 못한 질문을 가르쳐주면서 새로운 것을 배울지도 모르겠습니다.
+- 레일스 걸스 커뮤니티가 매우 감사드립니다.
+- 지금까지 본 적 없는 일 [\#FridayHug](http://fridayhug.com)
+- 여성이 기술과 프로그래밍에 관심없는다는 편견을 깨는데 도움이 되겠습니다. 여러분의 자매, 여자친구, 친척들, (미래의) 딸을 미래에 도와주고 이력서에 추가할 수 있습니다!
 
-### Choice of technology
-Rails Girls workshops give the first experience in software craftsmanship through introducing the participants to Ruby, Rails and HTML/CSS. The curriculum has been built around these technologies. If the workshop is too difficult or deep, it will not encourage the beginners to continue as it's perceived too hard. Rails Girls workshops are not about learning programming fast and efficiently. It's about the open environment, excitement and getting to know the tools they can use, and having a great day learning about programming, the community, web apps and more. We would love to see other additions to e.g.follow up meetups. If you'd like to host a beginner-friendly, welcome event for women in other technologies or frameworks, we strongly encourage you to do so and use the existing materials. All Rails Girls content is licensed under creative commons.
-
-
-### Time to complete app
-There's loads of time to complete the app, and so it is more important to slowly explain what is happening in each step, as it is a lot of copy pasting and if attendees rush through the guide, they will be done soon but not understand at all what happened.
-<br> There's a LOT (4-5) h reserved for the app, tweaking it and putting it online for others to see so there is no hurry :)
+### 기술 선택
+레일스 걸스 워크샵은 여러분들이 참가자들에게 처음으로 루비, 레일스, HTML/CSS를 소개하는 경헙을 얻겠습니다. 커리큘럼은 루비, 레일스, HTML/CSS 기술에 대해 만들었습니다. 워크샵이 너무 어렵거나 깊히 들어간다면, 너무 어려워서 중간에 포기할지도 모릅니다. 레일스 걸스 워크샵은 프로그램밍을 효과적으로 빠르게 배우려고 하지 않습니다. 열린 자세로 참가자가 툴을 사용할 줄 알도록 하고, 하룻동안 프로그래밍, 커뮤니티, 웹앱과 그 밖의 여러가지를 배웁니다. 모임이 지속적으로 열리면 좋겠습니다. 처음 배우는 사람들이 편한 행사를 개최하고 다른 웹기술과 프레임워크를 여성에게 가르쳐주기를 응원합니다. 여기 있는 자료를 교재로 사용하세요. 레일스 걸스의 모든 컨텐츠는 크레이티브 커먼즈에 따라 사용할 수 있습니다.
 
 
-### Swag
-Believe it or not, for most, it is really important. It makes the environment different. You decide how, but little crafts (making buttons), stickers, cupcakes, balloons, posters, or anything you can come up with makes all the difference.
+### 앱을 끝까지 만드는데 걸리는 시간
+각 단계마다 어떻게 동작하는지 천천히 설명하는 것이 매우 중요하기때문에 끝까지 만드는데 꽤 시간이 걸립니다. 코드를 복사해서 붙여넣거나 가이드만 빨리 진행한다면 뭐가 뭔지도 모른채 금방 끝나버릴 것입니다.
+<br> 충분한 (4-5)시간으로 앱을 이리저리 바꿔보고 인터넷으로 배포하세요. 서두를 건 없습니다. ^^
+
+
+### 장식
+믿거나 멀거나 대체로 워크샵 장소를 잘 꾸미는 것이 중요합니다. 주변을 다르게 꾸미세요. 덜 수고스럽더라도 버튼을 만들고 스티커와 간식을 준비하고 풍선을 달거나 포스터를 붙이는 방법을 정하세요. 그 밖에 머리에 떠오르는 무엇이든 주변을 다르게 꾸밀 수 있다면 좋습니다.
 
 
 ### Inclusivity
-Rails Girls is a an inclusive, safe and welcoming experience to everyone. The workshops are primarily intended for beginner women and crafted for this specific user group, but we've always been open to including other skill-levels and genders. Rails Girls coaches are male and female. The end goal of Rails Girls is to enriched the entire Rails community by encouraging more diverse people to join it. If you want to make a different curriculum or group, all the material is online and you are welcome to use it under another name and brand.
+레일스 걸스는 편안하며 누구에게나 열려있습니다. 워크샵은 우선적으로 여성 초심자를 위해 만들었습니다. 그러나 프로그래밍 기술 수준이 있거나 성별 다르다고 구애받지 않습니다. 레일스 걸스 도우미는 남녀 모두입니다. 레일스 걸스의 최종 목적은 다양한 사람들을 참여하도록 하여 레일스 커뮤니티를 활성화하는데 있습니다. 커리큘럼을 바꾸거나 다른 유형의 사람들을 가르친다면 온라인에 있는 교육자료를 다른 브랜드 이름으로 써도 좋습니다.
 
 
 
-### What if I've never done anything in Rails?
+### 만약에 레일스를 사용해본 적이 없다면?
 
-Why haven't you yet? Just kidding. That's not a problem at all, we've had a lot of coaches just like you and they were *super awesome*. As long as you're comfortable with any other similar framework, you'll be fine. Take a look at the [basic app guide][app] and you'll probably be able to figure out what's going on pretty soon. Pay attention to the "**Coach**" bits that tell you what you should be able to explain.
+여태 사용해본 적이 없나요? 그래도 전혀 상관없습니다. 여러분과 같은 *매우 뛰어난* 도우미들이 많았습니다. 다르지만 비슷한 프레임워크가 익숙하면 충분합니다. [처음으로 애플리케이션 만들기][app]을 한번 보면 대충 어떻게 돌아가는지 파악될 것입니다. 여러분들이 설명해야할 부분은 "**Coach**"로 표시되어 있어서 주의해서 살펴보세요.
 
-Usually there'll be at least somebody at the event who works with Rails on a regular basis, so don't be afraid to ask for help when bundle installs go all weird on you. Also, if you come across something unusual, just Google it with your group! It's ok to admit that you don't know everything and show the girls how you use Google to solve your everyday programming dilemmas.
+도우미 중 누군가는 레일스를 해봤거나 기초를 아는 사람이 있을 것입니다. 젬을 설치하다가 오류가 발생하면 물어보세요. 가이드를 따라하다가 꼬이면 참가자들과 함께 구글로 검색해보세요! 모르는 것도 있다고 인정해도 됩니다. 대신 평소 프로그래밍하다가 난관에 부딪혔을 때 구글로 검색하며 해결하는 과정을 보여주세요.
 
-### What exactly will I be doing as a coach?
+### 도우미로서 구체적으로 무엇을 하나요?
 
-The structure of workshop varies a bit from city to city, so your local organizer group will be able you to guide you through the details. Usually there's a pre-event meeting or dinner with coaches where you can ask all you questions.
+워크샵을 구성하는 방법은 도시마다 조금씩 다르빈다. 지역 모임 주최자가 자세히 알려줄 것입니다. 보통은 도우미들과 함께 사전 모임을 갖거나 저녁식사를 하면서 여러분들이 궁금한 것을 물어볼 수 있습니다.
 
-### Answering questions
-Often coaches who are just one step ahead of attendees are the best at explaining :) Use real life metaphors and explain very high-level. Explaining too deep will cause a flood of information that is not necessary at the beginning.
+### 질문 가르쳐주기
+대체로 참석자보다 조금 잘하는 도우미가 가장 설명을 잘합니다^^ 실생활을 메타포로 설명하세요. 너무 깊게 설명하면 머릿속에 정보가 꽉쳐서 시작하는 사람에게는 불필요합니다.
 
-#### Installation Party
+#### 인스톨레이션 파티
 
-Generally speaking, the Rails Girls workshops begin with an Installation party during which you'll be asked to help girls [install the required software][install] (Rails and a text editor). You don't have to be an expert on all operating systems, but you can help on those you are familiar with.
+대체로 레일스 걸스 워크샵은 인스톨레이션 파티부터 시작합니다. 도우미들은 참석자들이 필요한 소프트웨어(레일스와 텍스트 에디터)를 [설치](install)하는데 필요한 질문을 받겠습니다. 모든 운영체제를 섭렵할 필요는 없지만 여러분이 익숙한 운영체제를 도와주면 됩니다.
 
-#### Helping girls build their first app
+#### 처음으로 만든 앱을 빌드하는 과정을 도와주기
 
-During the following day, you will be the star of the show and help your group of anywhere from 2 to 5 girls build their first [web app][app] in Rails with the help of the tutorial. Usually that happens just after the initial batch of lectures sometime after 11 AM (aka they'll serve you coffee first).
+도우미들은 연예인이 되어 각자 맡은 2명에서 5명정도의 그룹이 튜토리얼을 따라서 레일스로 처음 만든 [웹 앱][app]을 빌드하는데 도와줄 것입니다. 첫 과제를 마친 직후 무렵일 것입니다.(아마도 그무렵 참가자들이 여러분에게 커피를 타다 주겠죠)
 
-Going through the tutorial on your own at home will usually be all the preparation you need. The girls will have the app guide open on their screens, so just guide them through the process, providing explanations of what's going on at each step. The explanations shouldn't be highly technical; try to simplify the answer by providing easy to remember metaphors. And remember that there is no such thing as a stupid question at a Rails Girls workshop! Let girls know they can ask you about anything along the way; you can spend more time on parts they find more interesting.
+여러분 혼자 집에서 튜토리얼을 따라서 해보는 것이 여러분이 해야할 준비사항 전부입니다. 가이드를 모니터에 띄워놓고 과정마다 어떻게 동작하는지 설명해줍니다. 기술적으로 설명하지 마세요. 떠올리기 쉬운 메타로를 찾아서 쉽게 가르쳐주세요. 레일스 걸스 워크샵에서 쓸데없은 질문이란 없습니다! 참가자 누구나 어떤 질문이든 할 수 있다고 알려주세요. 참가자들이 궁금해하는 것에 시간을 더 할애하세요.
 
-Also, don't be discouraged if you'll sometimes need to try a few different explanations. Most girls will be beginners, so they won't have many existing points of reference (bonus point: nor will they have any bad habits some programmers tend to pick up along the way). If you get to the end of the basic app tutorial, you can explore additional guides at the end or work on whatever your group is most interested in; design is usually a popular choice, but some girls will want to try building another app. You can also prepare your own challenges for girls or explore helpful resources (documentation etc).
+다소 설명을 다르게 해야 하더라도 거리낌 없이 해도 됩니다. 참가자 대부분은 초심자여서 설명이 맞는지 비교할 자료가 거의 없습니다. 처음으로 애플리케이션 만들기를 마치면 처음으로 애플리케이션 만들기 가이드 끝에 있는 다른 가이드를 해보거나 참가자들이 관심있는 가이드를 해보세요. HTML과 CSS로 디자인하는 가이드가 인기가 많지만 다른 앱을 만들고 싶어 하는 사람도 있습니다. 참가자들 위한 문제를 준비하거나 유용한 자료(문서 등)을 찾아봐도 좋겠습니다.
 
-If you need help with anything, don't be afraid to use Google or ask another coach to help you out. And don't be afraid to ask for a break if you need it, it's going to be a long day, but we can promise you'll get home with a big smile and a warm heart :)
+막히는 일이 생기면 주저하지 말고 구글로 검색하거나 다른 도우미들에게 부탁하세요. 하루 종일 하기때문에 때때로 쉬어가면서 하자고 말해보세요. 끝나고 집으로 돌아갈 때 기쁜 마음으로 돌갈 수 있을 겁니다. ^^
 
-* Check Lucy Bain's additional [teaching notes to the app](https://github.com/lbain/railsgirls)
+* 루시 베인의 [앱 노트](https://github.com/lbain/railsgirls)를 살펴보세요.
 
-### Are you in?
+### 한번 해보겠어요?
 
-Good, we're happy to have you on board! Get in touch with organizers of your local event (if you aren't already) and they'll answer all the other questions you might have. You can usually find their contact info on the event's page.
+네, 잘 하셨습니다! 가까운 지역 행사 주최자에게 연락하세요. 궁금한 사항은 지역 행사 주최자들이 알려줄 것입니다. 행사 안내 페이지에 주최자들의 연락처가 있습니다.
 
-If you're traveling abroad at the time of a Rails Girls workshop, do feel free to contact the organizers of the city you'll be visiting; we're always happy to welcome additional coaches! Not to mention that a Rails Girls workshop is a great excuse to visit a new city ;)
+레일스 걸스 워크샵 시기에 여행한다면, 여행하는 도시의 주최자들에게 편하게 연락하세요; 도우미는 많은수록 환영합니다! 레일스 걸스 워크샵은 다른 도시로 여행해볼 그럴듯한 계기가 되는 것 물론입니다. ^.~
 
-Some other great first-hand tips from Rails Girls coaches:
+레일스 걸스 도우미를 해보고 얻은 팀 몇가지:
 
-- [4 lessons learned from teaching at Rails Girls Berlin](http://pragtob.wordpress.com/2012/08/14/4-lessons-learned-from-teaching-at-rails-girls-berlin/)
-- [I infiltrated #railsgirlslj, here’s what it was like](http://swizec.com/blog/i-infiltrated-railsgirlsj-heres-what-it-was-like/swizec/5717)
-- [8 ways to enable workshop attendess to keep learning](http://pragtob.wordpress.com/2013/06/14/8-ways-to-enable-workshop-attendess-to-keep-learning/)
-- [What I learned learning Rails / becoming a better teacher](http://floordrees.tumblr.com/post/58784746482/what-i-learned-learning-rails-becoming-a-better)
-- [Tips for coaching a programming study group](http://coaching.rubymonstas.org/)
+- [레일스 걸스 베를린에서 배운 4가지](http://pragtob.wordpress.com/2012/08/14/4-lessons-learned-from-teaching-at-rails-girls-berlin/)
+- [레일스 걸스 류블랴나(#railsgirlslj)에 참여하고, 어땠는지](http://swizec.com/blog/i-infiltrated-railsgirlsj-heres-what-it-was-like/swizec/5717)
+- [워크샵 참석자들이 계속 배우도록 도와주는 8가지](http://pragtob.wordpress.com/2013/06/14/8-ways-to-enable-workshop-attendess-to-keep-learning/)
+- [레일스를 배우거나 좀 더 나은 선생님되는데 내가 배운 것](http://floordrees.tumblr.com/post/58784746482/what-i-learned-learning-rails-becoming-a-better)
+- [프로그래밍 스터디 그룹을 이끌고 도와주는데 필요한 팁](http://coaching.rubymonstas.org/)
 
 [app]: http://guides.railsgirls.com/app
 [install]: http://guides.railsgirls.com/install/
