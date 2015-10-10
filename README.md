@@ -2,9 +2,9 @@
 
 >우리의 목표는 여성들에게 기술을 이해하는 툴을 제공하는 것입니다. 레일스 걸스 행사는 여러분에게 처음으로 인터넷을 만드는 경헝을 제공하여 목표를 달성합니다.
 
-레일스 걸스는 헬시키에서 2010년 말 설립하였습니다. 본래 일회성 행사였기때문에 세계 각지에 레일스 걸스 지부가 많이 생길지 생각하지 못했습니다. 레일스 걸스 가이드는 여러분이 시작하는데 필요한 내용을 담아 두었습니다.
+레일스 걸스는 헬싱키에서 2010년 말 설립하였습니다. 본래 일회성 행사였기때문에 세계 각지에 레일스 걸스 지부가 많이 생길지 생각하지 못했습니다. 레일스 걸스 가이드는 여러분이 시작하는데 필요한 내용을 담아 두었습니다.
 
-여기의 교재와 강의를 활용해서 여러분이 사는 도시에서 또는 회상에서 또는 집에서 워크샵을 열어도 됩니다! 레일스 걸스에 대해서는 http://railsgirls.com 를 들려서 읽어보세요.
+여기의 교재와 강의를 활용해서 여러분이 사는 도시나 회사에서 또는 집에서 워크샵을 열어도 됩니다! 레일스 걸스에 대해서는 http://railsgirls.com 를 들려보세요.
 
 ## 가볍게 시작하기
 
@@ -59,9 +59,9 @@ http://railsgirls.com 는 레일스 걸스 운동에 대한 공식 웹사이트�
 
 ## 기여하신 분
 
-* Karri Saarinen / [@karrisaarinen](https://twitter.com/karrisaarinen) / [github](http://github.com/ksaa)
+* 카리 사리렌 Karri Saarinen / [@karrisaarinen](https://twitter.com/karrisaarinen) / [github](http://github.com/ksaa)
 * 린다 리우카스 Linda Liukas / [@lindaliukas](https://twitter.com/lindaliukas) / [github](http://github.com/lindaliukas)
-* Vesa Vänskä / [@vesan](https://twitter.com/vesan) / [github](http://github.com/vesan)
+* 베사 벤스케 Vesa Vänskä / [@vesan](https://twitter.com/vesan) / [github](http://github.com/vesan)
 * 테렌스 리 Terence Lee / [@hone02](https://twitter.com/hone02) / [github](http://github.com/hone)
 
 .. 그리고 여러 코치분들과 레일스 걸스를 잘 가꿔주는 사람들. 여러분도 참여해보세요!
