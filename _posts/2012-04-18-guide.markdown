@@ -4,249 +4,248 @@ title: Guides
 permalink: guide
 ---
 
-# The How to Guide
+# 가이드 개요
 
 
-## Hosting your first Rails Girls event
+## 레일스 걸스 행사를 처음으로 주최합니다.
 
-Our aim is to give tools for women to understand technology. The Rails Girls events do this by providing a great first experience on building the Internet.
+여성들이 기술을 이해하기 위한 도구를 제공하는 것이 목적입니다. 레일스 걸스 행사는 인터넷 웹사이트를 만드는 첫 경험을 제공합니다.
 
-Rails Girls was founded in end of 2010 in Helsinki. Originally intended as a onetime event, we never thought we'd see so many local chapters all around the world! This guide has been put together to help you get started.
+레일스 걸스는 헬싱키에서 2010년 말 설립하였습니다. 본래 일회성 행사였기때문에 세계 각지에 레일스 걸스 지부가 많이 생길지 생각하지 못했습니다. 레일스 걸스 가이드는 여러분이 시작하는데 필요한 내용을 담아 두었습니다.
 
-If you want to organize an event, start by filling out [http://railsgirls.com/inyourcity](http://railsgirls.com/inyourcity) and you'll receive more instructions. 
+행사를 주최할 계획이라면 [http://railsgirls.com/inyourcity](http://railsgirls.com/inyourcity)에 행사 내용을 제출하세요. 행사 계획 지첨서를 추가로 드리겠습니다.
 
-The roadmap for future events can be seen at [www.railsgirls.com](http://railsgirls.com).
+미래의 행사 계획은 [www.railsgirls.com](http://railsgirls.com)에서 볼 수 있습니다.
 
 
-### The Basics
-Rails Girls events are non-profit. We don’t charge the participants and do not pay for coaches or speakers. Participants don’t need any previous knowledge about programming and there are no age-limitations. All the participants need is a laptop and some curiosity.
+### 필수사항
+레일스 걸스 행사는 비영리입니다. 참가비를 받지도 않고 도우미와 발표자에게 대가를 드리지도 않습니다. 참가자는 프로그래밍에 대한 사전 지식이 없어도 되며 나이 제한도 두지 않습니다. 참가자에게 필요한 것은 노트북과 약간의 호기심이 전부입니다.
 
-The two-day event includes a lot of small group working and short focused talks on programming, design and web. No panel discussions or podium-talks - the spirit should be informal and hands-on. The more you can remove abstractions and add inclusivity the better.
+이틀간 진행하는 행사에 프로그래밍, 디자인과 웹에 대한 발표를 짧게 중간중간에 있고 소규모 그룹으로 여러개 활동합니다. 몇 사람을 앞에 모셔서 질문과 답변하는 토론이나 무대 앞에 나가서 발표하지 않습니다. 행사 형식에 무게를 두기 보다는 참가자들이 직접 해보는 것이 중요합니다. 한가지만 집중하지 말고 다양한 상황을 받아들이기 바랍니다.
 
-#### Rails Girls philosophy
+#### 레일스 걸스 이념
 
-* Show sparks, personality and keep in mind the big picture. Explain, repeat and always tie what you're telling into a larger context.
-* Internet was made by people and it doesn’t break by a little tinkering. Continuously show the human side: encourage coaches to talk about open source communities, their programming idols and their aspirations.
-* Copy-pasting rules. Programming per se isn’t central - you can't really learn to speak Chinese in one day, in a similar manner you can only learn the basic vocabulary and expressions in coding. The goal of every event is to make something visible!
-* Girls run this world! But also women, ladies, even boys are allowed in. More than semantics we're interested in a mindset. Both founders were born in the Spice Girls era, they don't see the word girl as condescending or cutesy-cute.
+* 번뜩이는 재치와 개성을 들어내고 전반적인 큰 그림을 그려서 생각합니다. 말하고자 하는 바를 문맥의 흐름에 맞게 반복하여 설명합니다.
+* 인터넷은 민중에 의해 만들어졌습니다. 인터넷은 쉽게 부서지지 않습니다. 지속적으로 인간적인 면을 보여줍니다: 도우미들이 오픈 소스 커뮤니티 그리고 도우미가 생각하는 프로그래밍 아이돌과 포부를 발표하도록 장려합니다.
+* 따라서 복사에서 붙여넣기 규칙. 프로그래밍은 중요하지 않습니다. - 하루만에 중국어 말하기를 배울 수 없듯이 코딩할 때도 기초가 되는 단어와 표현을 배웁니다. 모든 행사는 눈에 보이이도록 만드는 것이 목적입니다!
+* 소녀들이 세상을 움직입니다! 물론 여성, 숙녀, 소년들도 포함합니다. 우리는 태도에 대해 의미이상으로 깊게 관심을 가집니다. 설립자들은 스파이스 걸스(영국 걸그룹) 시대에 태어나서, 소녀라는 단어를 거들먹거리거나 과하게 귀여운 단어로 생각하지 않습니다.
 
-#### Codes of Conduct
+#### 행동강령
 
-Rails Girls events are inclusive, friendly and safe environments. They have zero tolerance of harrasment or bullying. You can include a Code of Conduct to your event. Below are examples:
+레일스 걸스 행사 분위기는개방적이고 친밀하며 편안합니다. 어떠한 괴롭힘이나 따돌림도 없습니다. 아래와 같은 행동강령을 포함할 수 있습니다:
 
-* [Rails Girls Summer of Code Code of Conduct](http://railsgirlssummerofcode.org/about/code-of-conduct/)
-* [PyLadies Code of Conduct](http://www.pyladies.com/CodeOfConduct/)
-* [Geek Feminism Wiki Anti Harassment example](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy)
-* [Conf Code of Conduct](http://confcodeofconduct.com/)
-* [Rails Girls DC Code of Conduct](https://docs.google.com/document/d/1XEnFI3R30IiGXOpC4idb0ku3pw8OoJcBpG9mg3iKiAo/edit)
-* [Rails Girls NZ Code of Conduct](https://docs.google.com/document/d/1EiTZ-__VDuXpN1OqgVKnYr2Km_N3fD9WWN3g5cv5hAA/edit)
+* [레일스 걸스 써머 오브 코드 행동강령](http://railsgirlssummerofcode.org/about/code-of-conduct/)
+* [파이레이디스 행동강령](http://www.pyladies.com/CodeOfConduct/)
+* [긱 페미니즘 위키 안티 하래스먼트 사례](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy)
+* [컨프 행동강령](http://confcodeofconduct.com/)
+* [레일스 걸스 개발자 커뮤니티 행동강령](https://docs.google.com/document/d/1XEnFI3R30IiGXOpC4idb0ku3pw8OoJcBpG9mg3iKiAo/edit)
+* [레일스 걸스 웰링턴(뉴질랜드) 행동강령](https://docs.google.com/document/d/1EiTZ-__VDuXpN1OqgVKnYr2Km_N3fD9WWN3g5cv5hAA/edit)
 
 ### Example Program
 
-Every Rails Girls event starts with an installation-fest where the setup is pre-installed to the girl's computers. See [guides.railsgirls.com/install](http://guides.railsgirls.com/install) for readymade instructions. The installation-fest can include short talks, but the main point is to offer some sparkling wine, get everything set for the next day and the women to know each other. The timeframe is tentative - you know your audience and what suits them best. We've hosted events both during weekend and weekdays. Also, doing two evenings (4PM - 22 PM) might be a more suitable solution for your community needs.
+레일스 걸스 행사는 매번 인스톨레이션 파티로 시작합니다. 파티는 참석자의 컴퓨터에 필요한 소프트웨어를 설치합니다. [guides.railsgirls.com/install](http://guides.railsgirls.com/install)를 참고해서 알려주세요. 인스톨레이션 파티에 발표를 짧게 해도 되지만 다과를 준비하고 다음날에 필요한 준비물을 챙기고 참석자들이 서로 인사하는 것이 중요합니다. 시간표는 참석자에 따라 맞춰서 바꿀 수 있습니다. 그동안 평일이나 주말에 행사를 진행해봤습니다. 물론 저녁(오후 4시 - 10시)시간에 2회에 걸쳐 진행해도 적당합니다.
 
-#### Learning objectives of the workshop:
+#### 워크샵에서 배울 과제:
 
-* Understanding the difference between a dynamic and static web page.
-* Vocabulary of the web: developing a basic understanding of what components make a web application. Understanding the ABCs of coding: strings, methods, variables, arrays, exclamations, chaining, hashed, symbols, blocks.. as well as the tools (terminal, browser, text editor). Creating a conceptual understanding of the web's building blocks: programming languages, frameworks, databases, infrastructure.
-* Have an idea of how to move forward in the programming world: both online and offline.
+* 다이나믹과 스태틱 웹페이지의 차이를 구분합니다.
+* 웹관련 용어: 웹 애플리케이션을 만드는 구성요소, 코딩 기초: 문자열, 메소드, 변수, 배열, 뱅, 체이닝, 해시, 심볼, 블록.. 그리고 툴(터미널, 브라우저, 텍스트 에디터). 웹을 구성하는 기본요소: 프로그래밍 언어, 프레임워크, 데이터베이스, 인프라구조.
+* 프로그래밍 세계를 헤쳐나갈 방법: 온라인과 오프라인 모두.
 
-#### Friday evening: Installation
+#### 금요일 저녁: 설치
 
-19:00 - 21:00 Installations and getting to know each other  
-*Hint*: Have a coach table where problematic computers can be brought.
+19:00 - 21:00 설치하고 서로 인사합니다.
+*Hint*: 오류가 발생하는 컴퓨터는 도우미에게 가져갈 수 있도록 합니다.
 
-Some installations will fail: be prepared to set women up in pairs, don't use endless amounts of time.
+설치하다가 오류가 발생할 때: 참석자가 페어프로그래밍 하도록 짝지어줍니다. 설치한다고 시간을 다 보내지 마세요.
 
-Decorate the place with balloons and posters. Put a fun <a href="http://open.spotify.com/user/lindaliukas/playlist/1fgkUFCFDrSn621kf4iHhr">playlist</a> together for the evening.
+행사 장소를 풍선과 포스터로 꾸밉니다. 저녁동안 재미있는 <a href="http://open.spotify.com/user/lindaliukas/playlist/1fgkUFCFDrSn621kf4iHhr">음악</a>을 들려주세요.
 
-Come up with activities to break the ice: ask the girls to write why they are attending the event on post-its or to draw and describe their dream web app.
+어색한 분위기를 무르익게 하려면: 참석자에게 포스트잇을 주고 참석한 동기와 참석자들이 꿈구는 웹 앱을 그림을 그리거나 설명을 적도록 해봅니다.
 
-Remember to do a [FridayHug](http://fridayhug.com)!
+[프라이데이 허그](http://fridayhug.com) 한번 해보세요!
 
-21 -> Coach dinner
-Go through the application with the coaches during dinner.
+21 -> 도우미 시간
+저녁식사시간동안 도우미들과 애플리케이션을 끝까지 만들어 봅니다.
 
 
-#### Saturday: Workshop
+#### 토요일: 워크샵
 
-09:00 - 10:00 Registration and coffee  
-*Hint* Reserve enough time for people to mingle and to solve any problems there might be with installations. Give out workbooks, collect acronyms for the Bento exercise.
+09:00 - 10:00 참석자 등록 및 다과시간.
+*Hint* 시간은 넉넉하게 비우두고 사람들끼리 서로 어울리고 설치하다가 발생한 문제점을 해결합니다. 워크북을 주고 도시락 퀴즈의 약어를 수집합니다.
 
-10:00 - 10:10 Welcoming words  
-*Hint* Mention sponsors, show what we'll build, tell what programming is.
+10:00 - 10:10 환영 인사  
+*Hint* 스폰서를 소개합니다. 무엇을 만들지 그리고 프로그래밍이란 무엇인지 소개합니다. 
 
-10:30 - 11:00 UX workshop
+10:30 - 11:00 UX 워크샵
 
-11:00 - 11:30 Introduction to programming  
-*Hint* Ask one of the coaches to do this. Explain why learning Ruby basics is important even though they'll be using Rails.
+11:00 - 11:30 프로그래밍 소개  
+*Hint* 도우미 중 한명에게 부탁합니다. 참석자가 레일스를 사용하더라도 루비언어의 기초를 왜 배워야 하는지 설명합니다.
 
-Themes to cover:
+다룰 주제:
 
-+ The difference between dynamic and static websites: what are web apps?
-+ What are programming languages? What is Rails?
-+ The tools we’ll be using: browser, terminal, code editor, folder structure
++ 다이나믹과 스태틱 웹사이트를 구분합니다: 웹 앱은 무엇인가?
++ 프로그래밍 언어는 무엇인가? 레일스는 무엇인가?
++ 사용할 툴: 브라우저, 터미널, 코드 에디터, 폴더 구조
 
-Show & tell with <a href="http://tryruby.org">tryruby.org</a>, first three-four exercises all together.
+<a href="http://tryruby.org">tryruby.org</a>을 함께 해보세요.
 
-11:30 - 13:00 Workshop time
-Going (slowly!) through the curriculum at <a href="http://guides.railsgirls.com/app">guides.railsgirls.com/app</a>. Stop to explain what you’re doing and what the different concepts mean.
+11:30 - 13:00 워크샵 시간.
+차근차근히 <a href="http://guides.railsgirls.com/app">guides.railsgirls.com/app</a>의 커리큘럼에 따라 진행합니다. 프로그래밍 개념을 구분하거나 앞으로 무엇을 할지 설명하는 것을 잠시 멈추세요.
 
-Try to aim for simple explanations even with the cost of accuracy. You don’t need to talk about all underlying concepts. Just try to answer questions when they arise, or move on if they’re too hard or out of scope. You are not here to teach perfect coding skills but to show how to get stuff done. One has to learn how to build web apps before learning how to do it well.
+설명을 간단하게 하도록 노력합니다. 배경이 되는 개념을 모두 설명하지 않아도 됩니다. 문제가 생기면 해결방법을 알려주도록 하거나, 문제가 너무 어렵거나 주제를 벗어나면 그냥 넘어가도록 합니다. 코딩 기술을 완벽하게 가르치기보다 끝까지 만들어보는 방법은 보여주는 것이 목적입니다. 웹 앱을 빌드하는 방법을 배운 뒤에 웹 앱이 어떻게 동작하는지 배워야 합니다.
 
-Concepts to cover:
-+ Rails Generators
-+ Scaffolds: Rails App Structure
-+ Gem Management
-+ MVC, REST/Resources
-+ Models and Active Record
-+ Controllers and ActionController
-+ Views and ERB
+다룰 주제:
++ 레일스 제너레이터
++ 스캐폴드: 레일스 앱 구조
++ 젬 관리
++ MVC, REST/리소스
++ 모델과 액티브 레코드
++ 콘트롤러와 액션콘트롤러
++ 뷰와 ERB
 
-*Tips:* Coaches are people too. They are doing this for the first time too. Teaching might be hard and intimidating, so remember to be available to help coaches or groups with difficult situations or just provide support and encouragement.
+*Tips:* 도우미도 사람입니다. 도우미들도 처음해보는 것이라서 가르쳐주는 게 만만치 않을 것입니다. 진행하다가 막히는 그룹이나 도우미들을 도와주세요. 뒤에서 응원해주시기 바랍니다.
 
-13:00 - 14:00 Lunch
+13:00 - 14:00 점심 시간
 
-14:00 - 14:30 Bentobox exercise
-Putting technical jargon into a context with a conceptual model called Bentobox.
+14:00 - 14:30 도시락 퀴즈
+도시락 위에 그려진 표안에 적어진 분류에 맞게 기술용어를 붙이세요.
 
-Two exercises: 1) Going through the 10 technical concepts with the physical Bentobox boards.  2) Going through the words the women have themselves submitted with the coaches.
+방법: 1) 도시락과 함께 기술용어 10개를 나눠줍니다. 2) 도우미와 함께 도시락 위에 기술용어를 분류하여 붙입니다.
 
-+ [Bentobox slidedeck](http://speakerdeck.com/u/railsgirls/p/rails-girls-bentobox-exercise)
-+ [Instruction video](http://vimeo.com/39049632)
-+ [Example video from Rails Girls ATL](http://vimeo.com/54912357)
++ [도시락 퀴즈 슬라이드](http://speakerdeck.com/u/railsgirls/p/rails-girls-bentobox-exercise)
++ [도시락 퀴즈 설명 동영상](http://vimeo.com/39049632)
++ [레일스 걸스 애틀랜타의 동영상 참고](http://vimeo.com/54912357)
 
-14:30 - 18:00 Workshop time.
+14:30 - 18:00 워크샵 시간
 
-Time to continue working on the applications. Monitor the situation: when it seems like people have a hard time concentrating, have the coaches or other speakers give quick lightning talks.
+애플리케이션 만들기를 이어서 합니다. 상황에 따라서: 사람들이 조금씩 지쳐보일 때 도우미나 다른 발표자가 가벼운 주제로 이야기하는 시간을 가집니다.
 
-Example topics for lighting talks:
+가볍게 이야기할 주제:
 
-+ Real (female) programmers telling what their career has been like.
-+ Design: UX & UI. Making mockups together either with paper or computer.
-+ Fun ways of explaining technical concepts and recent frameworks: what is CoffeeScript explained in 80s pop songs? How would you describe GitHub? What coding and creative writing have in common?
-+ Show us something real: don’t speak in abstractions, be specific and tell stories.
++ 여성 프로그래머가 말하는 자신의 경력
++ 디자인: UX & UI. 종이에 그리거나 컴퓨터를 사용해서 디자인하는 방법
++ 기술 용어와 최신 프레임워크를 재미있게 설명하는 방법: 커피스크립트를 80년대 팝송으로 설명하면 무엇일까? 깃헙을 어떻게 설명할까? 코딩과 창의적 글쓰기 사이의 공통점은 무엇일까?
++ 구체적으로 보여주세요: 추상적으로 말하지 않되, 실사례를 들어서 이야기하세요.
 
-Once everyone has finished their app, there is time to extend the application by modifying the CSS, implementing commenting systems etc. Allow enough time for experimentation.
+각자 앱을 만든다음, 애플리케이션을 확장하는 시간이 있습니다. CSS을 수정하고, 댓글 시스템을 구현합니다. 시간을 충분히 갖고 여러가지 시도를 해보세요.
 
-19:00 After party  
+19:00 뒷풀이
 *Hint:*
-Invite everyone, also the local developers, boys, those who weren't accepted, to join!
+누구나 초대하세요. 개발자, 남자 사람 등.
 
-[Fork this project on GitHub][github], add yourself, and send us a pull request.
+[레일스 걸스 가이드 프로젝트를 포크하세요][github], 여러분이 만든 것을 보태고, 플리퀘스트를 보내세요.
 
-[self]: http://guides.railsgirls.com/ "The Rails Girls Guide"
-[github]: https://github.com/railsgirls/railsgirls.github.com "Fork on GitHub"
+[self]: http://guides.railsgirls.com/ "레일스 걸스 가이드"
+[github]: https://github.com/railsgirls/railsgirls.github.com "깃헙에서 포크하세요."
 
-#### Materials
+#### 참고자료
 
-+ [Download materials](http://www.speakerdeck.com/u/railsgirls)
++ [슬라이드, 스티커, 로고 등 내려받기](http://www.speakerdeck.com/u/railsgirls)
 
-### Promotion of Rails Girls
+### 레일스 걸스 홍보
 
-Every Rails Girls workshop will get a custom website at railsgirls.com/city where the information is collected and then stored. For past cities, see [railsgirls.com/events](http://railsgirls.com/events)
+레일스 걸스 워크샵마다 railsgirls.com/city으로 시작하는 웹사이트를 줍니다. 알려줄 정보를 여기에 모아서 저장하세요. 이미 만들어진 도시의 웹사이트는 [railsgirls.com/events](http://railsgirls.com/events)를 참고하세요.
+각자 페이스북과 트위터 페이지를 만들어도 됩니다.(워크샵 페이지에 링크를 달아두세요!) 또는 다른 소셜 네트워크 서비스의 링크라도 좋습니다. 요즘에는 소셜 미디어로 행사를 홍보하는 것이 효과가 오래 갈 수 있습니다. 그러나 홍보채널을 선별하여 관리할 필요가 있습니다. 팁 몇가지:
 
-You can also set up your own Facebook and Twitter page (remember to add links to your workshop's page!) or whatever service is popular in your community. Promoting the event through social media can go a long way these days, but make sure you have somebody to take care of the chosen channels. Some tips:
+* 블로그 글은 상냥하고, 긍정적이며 환영하는 분위기로 씁니다. 팬이나 팔로워들이 친구들에게 행사 소식을 공유하도록 직접 부탁합니다.
+* 사진이 전달 효과가 큽니다. 직접 그래픽을 그립니다. (*제안 몇가지: "나는 레일스 걸스다"를 페이스북 배경화면으로 행사에 사용하거나, 등록한 여성의 이름을 구름처럼 보여주거나, 애플리케이션의 인포그래픽을 만들거나*)  여러분이 주최하는 행사의 다른 워크샵 사진으로 홍보합니다. 다른 지역의 레일스 걸스 페이지와 계정을 팔로우하여 컨텐츠를 구상하고 같은 커뮤니티의 다름 사람들에게 전달합니다.
+* 행사가 여성들의 이목을 끌도록 다양한 사람들에게 맞춥니다; 누군가는 재미로, 사람을 새로 만나려고, 새로운 것을 배우려고, 여성들이 뭔가 할 수 있다고 보여주고 싶어서 참석합니다. 특정부류의 사람에게만 맞추지 않습니다!
+* 워크샵에 대해 소개해준 여성, 도우미, 블로그 글, 미디어, 그 밖의 지지해주신 분들에게 두루두루 감사하다고 표현합니다.
+* 영어의 actress처럼 여성형 단어가 있으면 사용합니다.
 
-* Keep the tone of posts friendly, positive and welcoming. Be direct in inviting fans/followers to share the event with their friends.
-* Photos are especially powerful messengers. Create your own graphics (*some ideas: "I'm a Rails Girl" Facebook cover for the event, word cloud with first names of women who signed up, an infographic of applications*) or promote photos from other workshops if this is your event. Follow other Rails Girls pages and account to get ideas for content and pass it along to your community.
-* Try various pitches for events to attract different types of women; some will be in it for the fun and meeting new people, some to learn new things, some will be fueled by the desire to show guys that women can do anything. No need to focus on just one group!
-* Don't be afraid to publicly thank women, coaches, blogs, media and other supporters who help you spread the word about your workshop for their support.
-* If your language supports it, use feminine forms when addressing women.
+행사를 진행하는 동안 사진을 찍고, 트윗을 모으고 참가자에 대해 질문하도록 당부드립니다. 한번 해보면 다음 행사에 도움이 되겠습니다. 발표자와 참가자의 소감을 담은 블로그글을 쓰면 좋겠습니다. 블로그에는 도우미 명단도 꼭 넣으세요.
 
-While the event is underway, remember to take pictures, collect tweets and ask questions of the participants. You'll be thankful for all of that for your next event. We love to write blog posts about the speaker and participant experiences. A list of the coaches is also required.
++ [슬라이드, 스티커, 로고 등 내려받기](http://www.speakerdeck.com/u/railsgirls)
 
-+ [Download materials](http://www.speakerdeck.com/u/railsgirls)
-
-#### Website
-E-mail contact(a)railsgirls.com and ask to be included in the repo. Look for readme.txt for further instructions! Before making a site you should have at least two coaches and one sponsor onboard.
+#### 웹사이트
+contact(a)railsgirls.com으로 이메일을 보내서 저장소에 포함되도록 요청하세요. reademe.txt 파일을 찾아서 더 읽으세요! 사이트를 만들 때는 도우미는 최소 2명이고 스폰서는 한 곳이어야 합니다.
 
 
-+ [Counter for the site](https://github.com/ys/rails-girls-count#readme)
++ [참여자수를 웹사이트에 보여주기](https://github.com/ys/rails-girls-count#readme)
 
-#### How to find local developers?
+#### 현업 개발자를 어떻게 만날까요?
 
-* Google. Almost every country has some sort of a Rails or Ruby community (sometimes called Ruby Brigade or Ruby Tuesday). Look for [Hackernews](http://news.ycombinator.com) meetups, [GitHub](http://www.github.com) contributors or [Dribbble](http://dribbble) draftees. Find the local open source scene. Surf the technology conferences (here's [a list](http://rubythere.com/) of Ruby-themed ones, but others are cool too) and meetups at [meetup.com](http://www.meetup.com). Call software development houses, big and small. Don't forget IRC and podcasts!
+* 인터넷 검색합니다. 대체로 나라마다 루비 온 레일스 또는 루비 커뮤니티가 있습니다. [해커뉴스](http://news.ycombinator.com) 밑업, [깃헙](http://www.github.com) 기여하는 사람, [드리블](https://dribbble.com/) 드래프티(draftees)를 찾습니다. 오픈 소스 분야의 사람들을 찾습니다. 기술 컨퍼런스를 찾아다니고 (루비 주제에 관한 [행사 목록](https://twitter.com/rubythere) 참고. 다른 주제도 좋습니다.) [meetup.com](http://www.meetup.com)의 밑업에 참석해봅니다. 크고 작던지 소프트웨어 디벨롭먼트 하우스로 전화합니다. IRC와 팟캐스트를 잊어버리지 마세요!
 
-* Check out hashtags like #rails #ruby and #opensource from [Twitter search](https://twitter.com/#!/search-home). To find people from, say, close to NYC, use the following search operators "near:NYC within:15mi". Some countries have specific hashtags like #Rubysur and #RubyArg they use, remember to ask!
+* [트위터 검색하기](https://twitter.com/#!/search-home)에서 #rails, #ruby, #opensource 해시태그를 찾아봅니다. 뉴욕(NYC)에서 찾으려면 "near:NYC within:15mi"으로 검색합니다. 나라에 따라서 #Rubysur, #RubyArg처럼 해시태그를 사용하기도 합니다. 찾아보세요!
 
-* Startup community. Startup Digest is a good beginning point for events and communities.
+* 스타트업 커뮤니티. 스타트업 다이제스트가 행사와 커뮤니티를 시작하는데 좋습니다.
 
-* Often there are one or two key people who will be able to introduce you further. The technology world is surprisingly connected.
+* 중요한 사람 한,두명이 여러분에게 더 자세히 알려줄 수 있습니다. 기술 세계는 놀랍도록 연결되어 있습니다. 
 
-#### How to find participants?
+#### 참석자를 어떻게 모집하나요?
 
-* Use social media: Facebook, Twitter & local networks such as Weibo. Friends, girlfriends, co-workers!
+* 소셜 미디어를 사용합니다: 페이스북, 트위터 그리고 웨이보와 같은 지역 네트워크. 친구, 여자친구, 동료!
 
-* Local [Girls in Tech](https://twitter.com/#!/gitweet), [DevChix](http://www.devchix.com/), [Geek Girl](http://geekgirlmeetup.com/) chapters etc. Check out also [Meetup.com](http://www.meetup.com/). Twitter lists like @anitaborg's [Tech Women Programs](https://twitter.com/#!/anitaborg_org/tech-women-programs) and similar.
+* 지역의 [Girls in Tech](https://twitter.com/#!/gitweet), [DevChix](http://www.devchix.com/), [Geek Girl](http://geekgirlmeetup.com/) 지부 등. [Meetup.com](http://www.meetup.com/)도 확인합니다. Twitter lists like @anitaborg의 [Tech Women Programs](https://twitter.com/#!/anitaborg_org/tech-women-programs) 과 같은 트위터 리스트.
 
-* Think outside the box: universities, book clubs, music stores, design agencies, [Etsy](http://www.etsy.com). We want women who are interested in technology, but they can still have very varied backgrounds.
+* 주변에서 멀리 있는 사람을 고려합니다: 대학, 북 클럽, 음반 가게, 디자인 에이전시, [Etsy](http://www.etsy.com). 기술에 흥미가 있는 영성을 찾습니다. 그러나 여성들의 배경이 다양할 수 있습니다.
 
-#### How to get press?
+#### 미디어에 알리려면 어떻게 할까요?
 
-One of the big aims of Rails Girls is to make it more mainstream for women to build the web. That’s why we like to engage the local press and highlight the participants and their enthusiasm. We’d be happy to help prepare a press-release for the media. Check out [railsgirls.com/press](http://railsgirls.com/press) for more. If you're working with a big company as a sponsor, their PR department might be able to help you spread the message about the workshop.
+레일스 걸스의 가장 큰 목표 중 하나로 여성이 웹을 만드는 지름길을 만듭니다. 그러한 이유로 지역 미디어에 참여하여 참석자들과 그들의 열정을 부각시킵니다. 미디어에 보여지도록 준비하는데 도움이 된다면 기쁘겠습니다. 자세한 내용은 [railsgirls.com/press](http://railsgirls.com/press)를 참고합니다. 스폰서가 큰 회사라면, 스폰서 회사의 홍보부서가 여러분이 주최하는 워크샵에대한 메시지를 널리 전파할 수 있겠습니다.
 
-Send the press release to local blogs, find contact at various media outlets. The more doors you knock on, the greater you chance of getting through. Make a list of journalists and bloggers you contact, mark those that respond to your emails, so they can be the first ones to receive your next press release. You can also write a press release after the event that includes photos and statements from satisfied participants.
+보도자료를 현지에 사는 블로거에게 보냅니다. 언론 매체에 있는 연락처를 찾습니다. 문을 두드릴수록 얻을 기회가 많아집니다. 연락할 저널리스트와 블로거 목록을 작성합니다. 목록에서 답장을 받은 사람들을 표시합니다. 표시한 사람들에게 다음 행사의 보도자료를 먼저 보낼 수 있습니다. 행사를 마친 뒤에는 사진과 행사를 만족스럽게 참석한 사람들의 후기를 담은 보도자료를 작성할 수도 있습니다.
 
-### Sponsorships
+### 스폰서의 후원
 
 Rails Girls talks to a demographic that might be hard to reach other ways: women who have an interest in technology, who are possible users, employees or partners of the sponsoring company.
 
-We are looking for sponsors who are active participants in the local technology scene, whether it’s a startup or a big corporation, a non-profit or a government organization.
+지역의 기술 분야에서 활동적으로 참여하는 스폰서를 찾고 있습니다. 스타트업이거나 대기업이던지, 비영리단체이거나 정부기관이던지.
 
-Also non-traditional technology companies can be approached: kids stores, universities, women's magazines, beverage brands etc. They all should however have some affiliation or interest in technology.
+예전부터 기술 회사가 아니더라도 연락해볼수도 있습니다: 어린이를 위한 상점, 여성 잡지, 음료 브래든 등. 그러나 스폰서를 할 기업은 기술제휴를 하거나 기술 분야에 관심을 가져야 합니다.
 
-Rails Girls should always be kept non-profit: if there's money left, it should be used to support the future activities of the attendees. Don’t forget that you don’t need that much funding and even a two-person startup could be very willing to chip in.
+레일스 걸스는 언제나 비영리로 유지해야 합니다: 돈이 남으면, 앞으로 참여할 사람들을 위해 써야 합니다. 운영하기 위해 많이 모금할 필요가 없으며 두 사람의 스타트업이라도 참여가능합니다.
 
-### Example letter for sponsors
+### 스폰서에게 보내는 편지
 
-Dear xxx,
+000 귀하,
 
-We are organizing a Rails Girls programming workshop in (insert city) on (insert dates).
+(0월 0일) (00장소)에서 레일스 걸스 워크샵을 주최하려고 합니다.
 
-Rails Girls is a two-day non-profit event for women of all ages to give them a great first experience in software craftsmanship. We aim to give the tools to understand technology along with the community and inspiration to get started.
+레일스 걸스는 이틀간 진행하는 비영리 행사입니다. 나이와 관계없이 여성들이 소프트웨어를 만들어보는 경험을 할 수 있습니다. 툴을 사용해서 커뮤니티와 함께 기술을 이해하고 시작하는 계기를 마련하고자 합니다.
 
-Rails Girls is not just about programming, it’s about building things. During the workshop, we’ll build an application and also have inspiring lightning talks and exercises.
+레일스 걸스는 단지 프로그래밍이 목적이 아닙니다. 만들어가는 과정에 의미를 두고 있습니다. 워크샵을 진행하는 동안 애플리케이션을 만들고 가벼운 주제로 토론이나 발표를 하고 퀴즈도 풀어볼 생각입니다.
 
-For a closer look, please see www.railsgirls.com for past events and coverage.Here’s also a short video on the Berlin event held in April 2012: [http://vimeo.com/40852182](http://vimeo.com/40852182)
+그 동안의 사례는 www.railsgirls.com를 참고할 수 있습니다. 지난 행사와 소개자료가 있습니다. 지난 2012년 4월 베를린에서 열린 행사 동영상이 있습니다: [http://vimeo.com/40852182](http://vimeo.com/40852182)
 
-We are now looking for sponsors to help us realize this all.
-We’d love to have your support!
+우리를 도와줄 스폰서를 찾고 있습니다.
+지원해주시길 기대합니다!
 
-Yours, name
+감사합니다. 보내는 사람 이름
 
 
 
-### How much does it cost?
+### 비용은 얼마일까요?
 
-The costs below are estimated for 30 participants, 10 coaches - but they may vary a lot. It's easiest to try to get a local sponsor to pay the bills directly or partner with someone who has a set account to handle money. These calculations are done in Finland, in €, where food & alcohol is very expensive, but spaces are often free. All in all you should be able to organise an event easily for a little over a thousand euros.
+(환율 1유로는 1200-1400원) 아래의 비용은 참석자 30명, 도우미 10명을 기준입니다. - 그래도 비용이 더 들어갈 수 있습니다. 현지 스폰서 또는 돈을 지불할 능력이 되는 파트너가 청구서를 직접 지불하도록 하는 방법이 가장 쉬운 비용 처리 방법입니다. 아래의 계산은 핀란드 기준으로 유로화 단위입니다. 음식과 알콜은 매우 비싸지만 대관료는 거의 무료입니다. 행사 총 비용은 1000 유로(약 130만원)보다 약간 더 많이 듭니다.
 
-+ **Sparkling wine + cups** for the installation festival. 6 bottles, 6 euros a bottle. 36 euros.
++ **스파클링 와인 + 컵** 인스톨 파티. 6병, 병당 6유로(약 8천원). 36유로(약 4만8천원).
 
-+ **Breakfast Coffee**, pastry. 40 times around 5 euros. 200 euros
++ **아침 겸 커피 한잔**, 빵 또는 파이(페이스트리). 5 유로짜리 40개. 200유로(약 26만원)
 
-+ **Lunch.** Catered lunch can be around 15 euros, but you can do with a lot less by cooking yourself.  Add some water and coffee (50 euros). 650 euros.
++ **점심식사** 점심을 따로 주문하면 약 15 유로(약 2만원), 직접 요리한다면 비용을 줄일 수 있습니다. 물과 커피 (50 유로). 650 유로(84만원) 
 
-+ **Marketing materials.** Printing workbooks, ordering stickers, posters and other swag. Again, varies a lot, maybe you can use someones printer, but at least around 200 should be reserved.
++ **마케팅 재료** 워크북 인쇄, 스티커와 포스터 주문, 장소를 꾸미는 비용. 비용은 더 들 수 있으면 대신 누군가 출력해올 수 있습니다. 그래도 최소 200 유로(약 26만원)는 준비해야 합니다.
 
-+ **Coach dinner.** At a restaurant or homemade. A way to say thank you to the coaches for their volunteer work. Around 20 euros per head. 200 euros.
++ **도우미 저녁식사** 음식점에서 만나거나 집으로 초청합니다. 자원봉사하는 도우미에게 감사하는 마음을 전하는 방법입니다. 사람당 약 20유로. 200유로(약 26만원).
 
-+ **Space.** Try to get this one sponsored/free, they can be really expensive. Often startups are co-operative and can offer their space for use (esp. on weekends).	0 - XXXX euros.
++ **대관료** 스폰서를 받도록 하여 무료로 빌리도록 합니다. 대관료는 매우 비쌀 수 있습니다. 스타트업이 스폰서라면 주말동안 사무실을 빌려줄 수 있을지도 모릅니다. 0 - XXXX 유로.
 
-+ **Afterparty.** It's nice if you can throw a good party with free beverages, but can also be done low-key in a local bar or on set in the park!	0 - XXXX euros.
++ **뒷풀이** 음료 무제한으로 파티를 열 수 있다면 좋겠지만, 근처 술집에서 조촐하게 하거나 공원에서 할수도 있습니다! 0 - XXXX 유로.
 
-+ **Travel expenses.**	If you don't have any RG-team members in your country, consider inviting us over. We don't need fancy hotels, promise! Same if you want to invite speakers to your event. 	0 - XXX
++ **출장비**	여러분이 사는 곳에 레일스 가이드 팀이 없다면, 핀란드의 레일스 가이드 팀을 초청하는 것도 생각해보세요. 좋은 호텔에 묵지 않아도 됩니다. 여러분이 주최하는 행사에 발표자로 초청해도 같습니다. 0 - XXX
 
-+ *Total 1286 euros*.
++ *합계 1286 유로(약 170만원)*.
 
-__What do sponsors get?__
+__스폰서에게 제공할 것은?__
 
-* Logo on event website
-* Table space at event, opportunity to distribute handouts and/or swag
-* A chance to speak to attendees for 5 minutes
-* In most events there are official pictures taken that the sponsors can use afterwards
+* 행사 웹사이트에 스폰서의 로고를 보여줍니다.
+* 행사에서 별도 자리를 마련하고, 홍보자료를 배포할 수 있게 합니다.
+* 참석자에게 5분동안 발언할 기회를 줍니다.
+* 스폰서가 행사 이후에 공식적으로 사용할 사진을 찍을 수 있도록 합니다.
 
-Don’t give out the participant info, but sponsors are free to hang out at the event and be sure to include a short message to the sponsor in a thank-you note. Sponsor swag may be included in the goodie bag to an extent, but it should be something tasteful, not trashy and/or related to women.
+참석자 정보를 제공하지 않지만 스폰서가 행사장에 참석해도 됩니다. 감사의 메시지를 보내는 것을 잊지마세요. 스폰서는 과자나 선물 주머니같은 견본품을 행사기념품으로 제공할 수 있지만 여성에게 필요하거나 그럴싸한 것이어야 합니다.
 
 
 
@@ -254,227 +253,227 @@ Don’t give out the participant info, but sponsors are free to hang out at the 
 
 ## FAQ
 
-#### Who can organise a Rails Girls workshop?
+#### 레일스 걸스 워크샵은 누가 주최할 수 있나요?
 
-Anyone. What we look for is a group of people dedicated in making this a stellar first experience in the world of web making for women. What we hope to see is some (not all) of the following:
+누구나 가능합니다. 처음으로 웹을 만들어보는 여성들에게 헌신하는 그룹을 찾습니다. 아래와 같은 사항을 일부라도 만족하기를 바랍니다:
 
-* Contacts to the local developer scene. We are pretty technology agnostic, so it doesn’t have to be purely Ruby & Rails people. In practice every event needs 5 or more coaches (the number of coaches depends on the number of women you're planning to accept) that have basic knowledge of Rails and two days to contribute. In general the events have been around 25 - 40 people strong.
-* Event organisation know-how. Not heaps, but some practicalities under the belt.
-* An inkling of an idea where to look for women interested in technology. University, literature, arts, sports - we try to look for people who are interested in Internet, but do not have experience in coding.
-* Willingness to guide the women in the future if they have questions or want to organize their own events or find local developer gatherings.
+* 지역사회의 개발자들의 연락처. 한가지 기술에 억매이지 않으므로 굳이 루비와 레일스 개발자가 아니어도 됩니다. 여러분이 주회하는 행사 규모에 따라 다르겠지만 도우미가 5명 이상 필요합니다. 도우미들은 레일스에 대해 기초 지식이 있어야 하며 이틀간 참여해야 합니다. 대체로 행사 규모는 25명에서 많을 때는 40명입니다.
+* 행사 계획 노하우. 참석자 중에서 몇명은 행사를 주최해본 경험이 있어야 합니다.
+* 기술에 관심있는 여성을 찾는 아이디어가 있어야 합니다. 대학, 문학, 예술, 스포츠 - 인터넷에 관심이 있지만 코딩 경험이 없는 사람을 찾도록 합니다.
+* 행사를 직접 주최하고 싶어하거나 지역 개발자 모임에 참석하거나 질문이 있는 여성을 안내해줄 의지가 필요합니다.
 
-Start by filling out [http://railsgirls.com/inyourcity](http://railsgirls.com/inyourcity) and someone from our team will be in contact
+[http://railsgirls.com/inyourcity](http://railsgirls.com/inyourcity)에 제출부터 합니다. 우리 팀원 중 누군가가 연락하겠습니다.
 
-#### Where can I find all the materials for posters, nametags, sample presentations and such?
-Check out below, and let us know if something is missing!
+#### 포스터, 이름표, 발표슬라이드 예시같은 자료는 어디서 구할 수 있을까요?
+아래 링크를 참고합니다. 뭔가 빠져있다면 알려주세요!
 
-+ [Download materials](http://www.speakerdeck.com/u/railsgirls)
++ [슬라이드, 스티커, 로고 등 내려받기](http://www.speakerdeck.com/u/railsgirls)
 
-#### What kind of venue is needed?
+#### 행사장소에는 무엇이 필요한가요?
 
-We recommend choosing a venue with a built-in infrastructure for around 30-50 persons. For a programming event, this means:
+약 30-50명을 수용할 수 있는 인프라를 갖춘 장소를 추천합니다. 프로그래밍 행사에는 아래와 같은 사항이 필요합니다:
 
-* High-speed, tested Internet. There’s going to be over 30 computers online all the time. Add to that mobilephones, streaming music, funny videos and you get the picture!
-* Space for 4-6 person groups to gather together: chairs and tables, sometimes big pillows will do! This doesn’t have to be in the same room.
-* Possibility to set up extension chords and a projector.
-* Enough electric outlets to spare. Some women might have older laptops that will need to be plugged in at all times.
-* Location for food and beverage setup - lunch space for catering or a nearby lunch venue.
-* External monitors for teams are encouraged but not mandatory, helps the coaches show what is happening in the code.
-* Whiteboards can be helpful for coaches to explain more abstract concepts. Alternatively, paper and pen work just fine. Just have something at hand people can draw on.
+* 인터넷 속도가 빠를 것. 컴퓨터 30대 이상이 항상 인터넷에 연결할 것입니다. 스마트폰도 연결하고, 음악을 들려주거나 재미있는 동영상을 보여줄 수도 있고 용량이 큰 사진파일을 내려받을 수도 있습니다!
+* 4-6명이 한 그룹으로 묶을 수 있는 공간이 필요합니다: 의자와 넓은 상, 베개가 필요할지도! 베개는 다른 방에 있어도 됩니다.
+* 전기선과 프로젝트를 설치할 수 있어야 합니다.
+* 여분의 멀티탭이 필요합니다. 구형 노트북을 사용할 경우 전원을 항상 꽂아둘 필요가 있습니다.
+* 음식과 음료를 둘 장소 - 점심을 준비하거나 먹을 장소.
+* 노트북에 연결할 수 있는 모니터가 필수는 아니지만 도우미가 코드를 볼 때 도움이 됩니다.
+* 화이트보드는 도우미가 추상적인 개념을 설명할 때 도움이 됩니다. 화이트보드가 없다면 종이와 펜으로도 충분합니다. 뭔가 그릴 수 있는 것이면 됩니다.
 
-Ask where local developer meetings are usually hosted. Often co-working spaces are also willing to negotiate deals to gain some visibility among new people.
+지역 개발자 모임이 주로 열리는 장소가 어디인지 물어봅니다. 아마도 코워킹 스페이스가 추천해줄 것입니다.
 
-#### What is expected from the coaches?
+#### 도우미는 무엇을 준비할까요?
 
-Rails Girls events are organized around small groups, maximum of 4-5 persons per one coach. If possible, try to have groups of 3 women for each coach. For instance, if you're doing an event for 30 women, aim for having 10 coaches (a few more for backup don't hurt). We know this isn't always possible, but do try not to have groups of more than 5 women, so the coach can still answer all questions in the group.
+레일스 걸스 행사는 도우미 한명당 최대 4-5명의 작은 그룹으로 구성합니다. 가능하면 참석자 3명에 도우미가 한명이면 좋겠습니다. 실제로 여성 30명 행사에서 도우미 10명으로 구성합니다.(몇명 더 있어도 나쁠 것은 없습니다) 언제나 그렇지 않지만 한 그룹에 여성 5명이상 구성하지 않도록 합니다. 작은 그룹이어야 도움이가 골고루 답변해줄 수 있습니다.
 
-The coaches don’t need to be hardcore experts on Rails - basic knowledge and willingness to explain trumps expertise. So, if your local Rails community isn't very strong, do expand your search. You can have a mix of Rails experts and people with web development expertise in other frameworks. We are looking for people who like answering questions and can keep an upbeat and positive atmosphere through a period of 8 hours!
+도우미가 레일스 전문가가 아니어도 됩니다. - 기초 지식과 최선의 방법을 설명하려는 의지. 여러분의 레일스 커뮤니티에 사람이 적으면, 찾을 대상을 넓힙니다. 레일스 전문가와 다른 웹프레임워크 개발자로 섞어서 구성할 수 있습니다. 물어보는 것에 대해 가르쳐주기를 좋아하고 8시간동안 밝고 긍정적인 분위기로 이끌어 갈 수 있는 사람을 찾습니다!
 
-You can get to know the curriculum by checking out [guides.railsgirls.com/app](http://guides.railsgirls.com/app). There is also always a pre-event coach dinner where we’ll go through some pedagogical suggestions and check everyone knows what is happening. Avoid jargon, tie examples to what your doing, encourage asking questions. The installation instructions can be found at [guides.railsgirls.com/install](http://guides.railsgirls.com/install). We also understand that coaches are human and that for most of the people this is the first time teaching something. Worry not - the women have always been really happy with whatever they learn and just the chance to ask questions is enough.
+커리큘럼은 [guides.railsgirls.com/app](http://guides.railsgirls.com/app)을 참고합니다. 행사 전에 도우미들과 모여서 가르치는 방법을 제시하고 행사 진행사항을 점검합니다. 약어는 쓰지않고 실습하는 사례와 연관지어 가르쳐주도록 합니다. 설치 방법은 [guides.railsgirls.com/install](http://guides.railsgirls.com/install)에 있습니다. 도우미들도 대부분은 가르쳐본 경험이 없다는 점을 이해합니다. 걱정하지 마시고 - 여성들은 무엇을 배우든지 매우 기뻐할 것입니다. 여성들에게는 물어보는 것만으로도 충분히 기뻐합니다.
 
 
-We hope the coaches are ok with having their name and twitter-id/github/some mean of contact on railsgirls.com so the women always have a local face to answer their questions.
+여성들이 물어볼 수 있는 사람들과 안면을 틀 수 있도록 도우미들의 이름과 트위터-아이디/깃헙/기타 연락처를 railsgirls.com에 공유하기를 바랍니다.
 
-In addition, we encourage coaches to come up with additional exercises for the group. After completing the ideation app many women will want to try tweaking the look & feel of the site, implementing commenting, Facebook sharing, pushing the app to Heroku, etc.
+그리고 도우미들에게 그룹과 가이드 심화과제를 같이 풀어보도록 안내합니다. 시작단계의 앱을 만들어본 뒤에 사이트의 겉모양을 바꿔려고 하거나 댓글을 달거나, 페이스북 공유하기를 만들거나, 헤로쿠로 배포하려는 여성이 많을 것입니다.
 
-#### How to find coaches?
+#### 도우미를 어떻게 모집할까요?
 
-Ask around, ask sponsors (tech companies), ask anyone to help you out. Once you do get some coaches on board, they can help you out with their own contacts. Influential bloggers or Twitter users in your local dev community can help you out by broadcasting a call for coaches. *Hint: You can also thank coaches for their help by providing a spot at the workshop for their girlfriends ;)*
+주변 사람들, 스폰서(기술 회사), 또는 누구든지 도와줄 수 있는 사람에게 부탁합니다. 몇사람을 도우미로 모집하면, 그들의 인맥으로 도움을 받을 수 있습니다. 지역 개발자 커뮤니티에서 영향력있는 블로거나 트위터 사용자에게 도우미를 찾는 글을 공유해달라고 부탁할 수 있습니다. *Hint: 도우미에게 여자들을 만날 수 있는 기회를 줄 수 있습니다. ;)*
 
-##### Sample letter for potential coaches
+##### 도우미 후보를 찾는 편지 사례
 
-"Dear community member,
+"커뮤니티 멤버에게,
 
-We wish to invite you to take part in the Rails Girls event on (insert date). The event is aimed for women of all ages with no previous programming experience, but a lot of passion to building things. Rails Girls is an international non-profit, volunteer-based workshop. We've had events in Shanghai, Berlin, Helsinki, and Singapore. We expect to receive around a 100 applications.
+여러분을 (날짜 기입) 레일스 걸스 행사일을 거드는 일에 모시고 싶습니다. 행사의 대상은 모든 연령의 여성으로 프로그래밍 경험이 없지만 만들고 싶어합니다. 레일스 걸스는 전세계적으로 비영리의 자원봉사로 운영하는 워크샵입니다. 상하이, 베를린, 헬싱키, 싱가폴 등에서 행사를 주최했습니다. 지원자는 100명 정도를 예상합니다.
 
-In addition to giving a safe and fun first experience to coding for the women we want to engage them with local developers, open source, and the startup scene. We've attached some information on what coaching requires in practice. In addition, we have room for small lightning talks on technical subjects. If you have something you'd like to speak about, let us know.
+여성에게 편안하고 재미있는 경험을 주며, 여성들이 지역 개발자, 오픈 소스 그리고 스타트업 분야에 참여하기를 바랍니다. 도와주는데 필요한 사항을 이메일에 첨부하였습니다. 그리고, 기술분야를 주제로 발표할 수 있는 자리를 마련하였습니다. 발표하실 수 있다면 알려주세요.
 
-For more information about the non-profit event, check railsgirls.com or guides.railsgirls.com
+비영리 행사에 관해 궁금하신 사항은 railsgirls.com 또는 guides.railsgirls.com을 참고하세요.
 
-(You can also include the chapter "What is expected from the coaches" to the mail)"
+("도우미는 무엇을 준비할까요?" 부분을 이메일에 넣을 수 있습니다.)
 
 ---
 
 
 
-#### What materials do I get?
+#### 무슨 자료를 받을 수 있을까요?
 
-Each Rails Girls event gets a specific webpage.
+레일스 걸스 행사는 각각 웹페이지를 줍니다.
 
-In addition we’ll help you out with the goodie bags, poster templates, workbooks and other swag like stickers, reflectors and so forward. All of the materials can be found on this site. You can also ask the sponsors to include some sponsor materials if they wish. We are always looking for creative outlets for the Rails Girls brand, if you have ideas, let us know!
+그리고 기념품, 포스터 템플릿, 워크북, 스티커같은 꾸밀 수 있는 물건으로 도와드리겠습니다. 모든 자료는 웹사이트에서 찾을 수 있습니다. 또는 스폰서에게 기념품을 줄 수 있는지 물어볼 수 있습니다.  In addition we’ll help you out with the goodie bags, poster templates, workbooks and other swag like stickers, reflectors and so forward. All of the materials can be found on this site. You can also ask the sponsors to include some sponsor materials if they wish. 언제든지 레일스 걸스 브랜드에 대한 창의적인 아이디어를 찾습니다. 여러분의 아이디어를 알려주세요!
 
-So far we've had
+지금 가지고 있는 것은 
 
-* Stickers
-* Reflectors
-* Tattoos
+* 스티커
+* 반사판
+* 문신
 
-Also, check out:
+그리고 아래 링크를 확인하세요:
 
-+ [Download materials](http://www.speakerdeck.com/u/railsgirls)
++ [슬라이드, 스티커, 로고 등 내려받기](http://www.speakerdeck.com/u/railsgirls)
 
-#### How do I choose attendees?
+#### 참석자를 어떻게 선별할까요?
 
-In the form we ask only two questions: do you have any previous background in coding and why would you be a good participant for Rails Girls
+신청자에게 질문 2개를 합니다: 코딩해본 경험이 있는지와 레일스 걸스에 참여하는 동기
 
-Rails Girls is intended for anyone and we want to keep it flexible enough for learners any age. However, make clear to the attendees what to expect: Rails Girls won’t make anyone into a coder, so people looking for i.e career change will be disappointed. On the other hand we like people with very diverse backgrounds and loads of enthusiasm.
+레일스 걸스는 누구나 참여할 수 있습니다. 배우는 사람이라면 연령제한이 없습니다. 어떤 사람이 참석ㅎ할지는 분명히 해두는 편이 좋습니다: 레일스 걸스는 초심자를 코더로 만들어 줄 수 없기에, 전직을 하려는 사람은 실망할 것입니다. 한편으로 열정을 가지고 있고 다양한 분야에 있는 사람을 선호합니다.
 
-After selecting participants we generally split them into three groups:
+참석자를 선별한 다음에 3가지 그룹으로 나눕니다:
 
-1. people with no previous programming experience
-2. people with some front-end experience (HTML, CSS, Javascript) and
-3. people with a little experience in programming or a background in computer sciences. You can use the different name-tags for each group if you want to (rubies, foxes, octocats, rails..)
+1. 프로그래밍 경험이 전혀 없는 그룹
+2. 프론트 엔드 경험(HTML, CSS, 자바스크립트)이 있는 그룹
+3. 프로그래밍 경험이 있거나 전산학 분야 지식이 있는 그룹. 그룹마다 루비스, 여우들, 옥토캣츠, 레일스 등으로 구분하여 이름표를 달 수도 있습니다.
 
 
 ##### Sample letter of acceptance
 
-Title: Rails Girls workshop - welcome!
+제목: 레일스 걸스 워크샵 - 환영합니다!
 
-Dear attendee,
+참석자 여러분에게,
 
-Congratulations! We’re happy to invite you to join in on the  Rails Girls workshop in (insert city). We hope that this workshop will provide you a great first experience on building web apps.
+축하합니다! 기쁘게도 여러분을 (도시 이름) 레일스 걸스 워크샵에 초대합니다. 이번 워크샵에서 웹 앱을 만드는 첫 경험하시기를 바랍니다.
 
-What happens next?
+다음으로 할 일은?
 
-(Insert date for installation fest) starts at (insert time) with an installation fest - so please bring your laptop with you! You should also try to pre-install Rails with instructions from <http://guides.railsgirls.com/install/>
+(인스톨 파티 일자와 시간)에 인스톨 파이를 시작합니다 - 여러분의 노트북을 들고 오세요! <http://guides.railsgirls.com/install/>을 보고 미리 레일스를 설치해보고 오셔도 됩니다.
 
-We will hold the event in (insert address)
+행사 장소는 (주소)이고
 
-On (insert date) we’ll dive into development. We’ll work in small groups with four to six person teams. Your team members will have about the same experience level as you. We'll be all developing a simple listing application. We'll wrap the day around (insert time). There's also going to be an evening party.
+일자는 (일자)입니다. 개발에 한번 빠져봅시다. 네명에서 여섯명이 한 팀으로 시작합니다. 같은 팀 멤버는 프로그래밍 수준이 비슷하도록 구성하겠습니다. 목록을 보여주는 간단한 애플리케이션을 만듭니다. (소요 시간)동안 시간이 걸립니다. 저녁에는 파티를 열 계획입니다.
 
-We have a lot of people wanting to get to the class, so if you can’t make it this time, let us know as soon as possible!
+이 수업에 참석하고 싶어하는 사람들이 있어서 참석하지 못하시는 경우 가능한 즉시 알려주세요!
 
-If you have any questions, please don't hesitate to contact me. We'll also be updating the website at (insert address)!
+궁금하신 사항은 주저하지 말고 연락주시기 바랍니다. (주소) 웹사이트에 업데이트하겠습니다!
 
-Best,
+감사합니다,
 
-(Signature)
+(서명)
 
 ##### Sample letter of not being accepted
 
-Title: Rails Girls - not accepted this time
+제목: 레일스 걸스 - 이번에는 초대하지 못하였습니다.
 
-Dear applicant,
+신청하신 분에게,
 
-Unfortunately we couldn’t fit you in the workshop this time. To be able to give personal guidance to each participant, we could only take a fraction of the applicants. This time we prioritized women with no previous programming experience.
+안타깝게도 이번에 여러분을 워크샵에 초대할 수 없습니다. 참석자마다 일대일로 가르쳐주기 위해서 지원자 일부만 초대할 수 있습니다. 이번에는 프로그래밍 경헝이 없는 여성 위주로 초대하였습니다.
 
-However, you're warmly welcome to the official afterparty. (Insert details).
+그러나, 뒷풀이에 오셔도 좋습니다. (세부사항 기재)
 
-We'll also be most likely organizing more events in your city. Follow twitter.com/railsgirls or facebook.com/railsgirls for more information.
+앞으로 행사를 더 주최하려고 노력하겠습니다. 자세한 사항은 twitter.com/railsgirls facebook.com/railsgirls를 팔로우하세요.
 
-There's always cancellations and we fill all available places, so we might still be taking in a couple of people!
+취소하는 사람이 있으면 가능한 자리를 채우겠습니다. 2명정도는 자리가 생길지도 모르겠습니다!
 
-Best,
+감사합니다,
 
-(Signature)
+(서명)
 
-##### Sample thank you letter for participants
+##### 참석자에 대한 감사의 편지
 
-Dear Rails Girls,
+레일스 걸스에게,
 
-Thank you for taking part in the Rails Girls event. We truly felt lucky to have such a talented & enthusiastic crowd of people with us and hope many of you will continue working with Rails in the future - you have the tools, now build something cool!
+레일스 걸스 행사에 참여해주셔서 감사합니다. 재능있고 열정적인 분들을 모시게 되어 진심으로 행운이라고 생각합니다. 앞으로 레일스를 계속 배워가기를 바랍니다 - 여러분에게 툴이 있습니다. 툴을 가지고 근사한 것을 만드세요!
 
-(Say a few words about the sponsors and coaches - thank you for the community)
+(스폰서와 도우미에 대해 말을 전합니다 - 커뮤니티에 기여해주셔서 감사합니다)
 
-Three things we want to share:
-in
-Workshop Materials
-(Almost all) materials can be found in the guides section at http://guides.railsgirls.com. You can find presentations, materials and instructions from the workshop. If you took pictures or blogged about the event - let us know! We'll be publishing regularly on blog.railsgirls.com
+공유하고 싶은 세가지:
 
-Make Rails Girls better - give us feedback!
-We want to hear from you! Give us feedback about the workshop or how we can make the event better – it’s really quick, and it’ll help us improve our workshop at railsgirls.com/feedback
+워크샵 자료
+자료는 대부분 http://guides.railsgirls.com (Almost all)의 가이드 섹션에 있습니다. 워크샵의 발표슬라이드, 참고자료, 설치방법을 찾을 수 있습니다. 행사장에서 사진을 찍었거나 블로그에 글을 올렸다면 알려주세요! 정기적으로 blog.railsgirls.com에 행사에 관한 사진과 글을 올리겠습니다.
 
-Keep on coding!
-We realize there was quite a lot of stuff in todays lecture and for most of you it all felt a little overwhelming. We strongly recommend trying out Rails for Zombies exercise at http://www.codeschool.com/ latest by next weekend, it'll refreshen all you've learned so far and teach you some more.
+레일스 걸스 개선 - 피드백을 보내세요!
+여러분의 목소리를 듣고 싶습니다! railsgirls.com/feedback 에서 워크샵에 대한 피드백이나 행사를 개선할 방법을 보내세요.
 
-Two things to keep you going:
-- (Insert here a couple of community events that the participants should take part in)
+코딩을 계속합니다!
+여러분에게는 다소 부담이 될 정도로 요즘에는 배울거리가 많다고 생각합니다. http://www.codeschool.com/ 의 레일스 좀비를 추천합니다. 그동안 배운 것을 복습하고 몇가지를 배울 수 있습니다.
 
-There was a LOT of interest in doing follow-up events. If you have ideas for this or want to volunteer for the organizing team, let us know and sign up for the group e-mailing list at http://groups.google.com/group/rails-girls-team!
+가볼만한 행사 소개:
+- (참석자가 참석해야할 커뮤니티 행사 2개를 기재합니다.)
 
-And that’s all for now,
-Your Rails Girls team
+다음 과정의 행사에 대해 관심이 많았습니다. 여러분에게 아이디어가 있으시거나 봉사자로 참여하고 싶으시면 알려주세요. 그룹의 메일링 리스트는 http://groups.google.com/group/rails-girls-team 입니다!
 
-
+여기까지 읽어주셔서 감사합니다,
+레일스 걸스 팀 드림
 
 
 
-#### What happens after the event?
 
-Inviting real developers to coach is Rails Girls sessions not only gives the participants a chance for hands-on education, but also makes the barrier to enter the technology world lower. How to keep the women coding?
 
-* Encourage them to continue practicing by trying different exercises like Codecademy and such.
-* Mention at least two forthcoming developer events where the local coaches will be. Try to get the women to attend actual developer meetups.
-* Invite everyone to the Facebook Group where they can ask questions.
-* Invite the women together again within a month. You can host these meetups at the Rails Girls global meetup page <http://www.meetup.com/Rails-Girls/> - we’ll be happy to promote events. However, it doesn't matter under which brand you want to continue meeting - the important thing'
-* Write about your event for blog.railsgirls.com by [submitting a story](http://blog.railsgirls.com/submit)
+#### 행사를 마친뒤에
+
+현업에 종사하는 개발자를 도우미로 초청하면 레일스 걸스에게 직접 해보면서 배우는 교육 기회를 주고 기술 세계의 진입 장벽을 낮춥니다. 여성이 코딩을 계속하려면 어떻게 할까요?
+
+* 코드아카데미 등에서 다른 교육과정을 배우도록 안내합니다.
+* 함께 했던 도우미가 앞으로 참석할 개발자 행사를 알려줍니다. 여성이 개발자 밑업에 참석하도록 노력합니다.
+* 질문할 수 있는 페이스북 그룹에 초대합니다.
+* 한달 이내에 다시 초대합니다. 레일스 걸스 글로벌 밑업 페이지 <http://www.meetup.com/Rails-Girls/>에서 행사를 주최할 수 있습니다. - 기쁜 마음으로 여러분의 행사를 홍보하겠습니다. 가장 중요한 점은 브랜드과 관계없이 모임을 이어갔으면 좋겠습니다.
+* [이야기를 제출합니다](http://blog.railsgirls.com/submit)를 클릭하여 여러분이 주최한 행사에 관한 글을  blog.railsgirls.com에 올려주세요.
 
 
 
 ---
 
-## Checklist
+## 체크리스트
 
-This is a small checklist for your event. Rails Girls can be thrown together in a matter of weeks, but to truly have time to make a good event, prepare at least two months. Not all of these steps are of course mandatory and they are here just to help you remember.
+행사를 준비하는 작은 체크리스트입니다. 레일스 걸스는 몇주안에 준비할 수 있지만 2개월 이상 준비하기 바랍니다. 아래 사항은 여러분이 빼먹지 않고 기억하기 위해 나열하였으며 일부는 필수사항이 아닙니다.
 
-### Before the event:
+### 행사를 하기 전에:
 
-* Fill in the [application](http://railsgirls.com/inyourcity) and the team will contact you!
-* Start working with the project plan template on Google Docs
-* Decide dates and set a venue
-* Reach out for the local coaches - try finding five people who commit to taking part
-* Release the website: write the copy and suggest a theme
-  1. Dates and location.
-  2. Application deadlines.
-  3. Short introductory text, around 200 characters. Check out the past events for inspiration!
-  4. Speakers of the day
-  5. Partners - a two parapgraph sentence and a logo (100 x 100px or 250 x 90px and in png format)
-  6. Coaches with twitter-handle
+* [지원서](http://railsgirls.com/inyourcity)를 작성하면 팀이 연락드리겠습니다!
+* 구글 문서에 있는 프로젝트 플랜 템플릿으로 준비작업을 시작합니다.
+* 일자와 장소를 정합니다.
+* 몇몇 도우미들에게 연락합니다. - 역할 분담할 5명을 찾습니다.
+* 웹사이트를 공개합니다: 아래를 복사하고 테마를 정합니다.
+  1. 일자와 장소
+  2. 신청 기한
+  3. 200자 내외로 간결한 소개. 지난 행사를 참고하세요!
+  4. 발표자
+  5. 파트너 - 로고(100 x 100px 또는 250 x 90px 이고 PNG 그림 파일 포맷)와 함께 2단으로 배열합니다. 
+  6. 도우미의 트위터 핸들
 
-* Start marketing the event, you can use materials from [here](http://www.speakerdeck.com/u/railsgirls)
-* Start looking for sponsors
-* Reach out for press and write a pre-event story
-* E-mail accepted participants and non-accepted applicants
-* E-mail installation instructions and last minute event details
-* Set a date for coach dinner and send them instructions
-* Check if there are other events taking place the same weekend
+* 마케팅을 시작합니다. [여기서](http://www.speakerdeck.com/u/railsgirls)의 자료를 사용합니다.
+* 스폰서를 찾기 시작합니다.
+* 소식을 전해줄 미디어에 연락하고 행사 전 이야기를 작성합니다.
+* 행사 참석자로 선정한 사람과 보류한 사람에게 이메일을 보냅니다.
+* 소프트웨어를 설치하는 방법과 행사 세부사항을 이메일로 보냅니다.
+* 도우미와 저녁 약속을 잡고 몇가지 지시사항을 보냅니다.
+* 같은 주에 다른 행사가 겹치는지 확인합니다.
 
-#### During the event
+#### 행사 중에 할 일
 
-* Tweet!
-* Remember to take photos
-* Interview participants and speakers about their experiences
-* Do a Friday Hug! Learn more about Friday hugs at [Fridayhug.com](http://fridayhug.com)
-* Have a Skype with other Rails Girls chapters hosting events at the same time
+* 트윗을 올리세요!
+* 사진을 찍으세요.
+* 참석자와 발표자를 인터뷰하세요.
+* 프라이데이 허그를 해보세요! 프라이데이 허그가 무엇인지  [Fridayhug.com](http://fridayhug.com)가 소개합니다.
+* 같은 시간에 다른 장소에서 열리는 레일스 걸스와 영상통화해보세요.
 
-#### After the event
+#### 행사를 마치고.
 
-* Update website to include pictures and blogposts
-* Upload your photos to our [official Flickr group](http://flickr.com/groups/railsgirls/) (preferably under a [Creative Commons](http://www.flickr.com/groups/railsgirls/discuss/72157634650757777/) licence!)
-* Invite active participants to [global e-mail list](https://groups.google.com/group/rails-girls-team)
-* Send a thank you note to participants and ask for [feedback](http://www.railsgirls.com/feedback) (you can also create your own feedback form in your local language)
-* Send a thank you note to coaches
-* Send a thank you note for organizers
-* Add yourself to the [Rails Girls Map](http://rails-girls-map.herokuapp.com/)
-* Share the numbers of your event by filling out this short [Questionaire](https://railsgirls.wufoo.eu/forms/rails-girls-events-all-the-numbers/)
-* Write a blogpost to the global blog by [submitting your story](http://blog.railsgirls.com/submit) - or ask one of the participants or coaches to write one!
+* 웹사이트에 사진과 블로그글을 올립니다.
+* [공식 플리커 그룹](http://flickr.com/groups/railsgirls/)에 여러분의 사진을 올리세요.  (저작권은 가능하면 [크리에이티브 커먼즈](http://www.flickr.com/groups/railsgirls/discuss/72157634650757777/) 라이센스!)
+* 열심히 참여한 사람은 [글로벌 이메일 리스트](https://groups.google.com/group/rails-girls-team)에 가입하세요.
+* 참석자에게 감사의 편지를 보내고 [피드백](http://www.railsgirls.com/feedback)을 부탁흡니다. (다른 언어로 번역할 수 있습니다.)
+* 도우미에게 감사의 편지를 보냅니다.
+* 주최자에게 감사의 편지를 보냅니다.
+* [레일스 걸스 지도](http://rails-girls-map.herokuapp.com/)에 추가합니다.
+* [설문지](https://railsgirls.wufoo.eu/forms/rails-girls-events-all-the-numbers/)를 작성하여 행사 통계자료를 공유합니다.
+* 글로벌 블로그에 [여러분의 이야기](http://blog.railsgirls.com/submit)를 올리세요. - 또는 참석자나 도우미에게 블로그을 작성하도록 부탁하세요!
